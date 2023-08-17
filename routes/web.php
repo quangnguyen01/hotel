@@ -44,3 +44,7 @@ Route::get('/team', function () {
 Route::get('/testimonial', function () {
     return view('clients/testimonial');
 })->name('testimonial-page');
+
+Route::get('/room-detail', function() {
+   return view('clients/room-detail');
+});

@@ -1,8 +1,9 @@
-<div class="container-fluid bg-dark px-0">
+<div class="container-fluid bg-white px-0">
     <div class="row gx-0">
-        <div class="col-lg-3 bg-dark d-none d-lg-block">
+        <div class="col-lg-3 bg-white d-none d-lg-block">
             <a href="index.html" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
-                <h1 class="m-0 text-primary text-uppercase">Hotelier</h1>
+                <img src="/assets/images/logo.png" style="margin-right: 10px">
+                <h3 class="m-0 text-primary"><span style="color: #e7792b">Merry</span> <br> House</h3>
             </a>
         </div>
         <div class="col-lg-9">
@@ -36,7 +37,7 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav mr-auto py-0">
-                        <a href="{{@route('home-page')}}" class="nav-item nav-link {{@url()->current() === @route('home-page') ? 'active' : ''}}">Home </a>
+                        <a href="{{@route('home-page')}}" class="nav-item nav-link {{@url()->current() === @route('home-page') ? 'active' : ''}}" style="margin-left: 30px">Home </a>
                         <a href="{{@route('about-page')}}" class="nav-item nav-link {{@url()->current() === @route('about-page') ? 'active' : ''}}">About</a>
                         <a href="{{@route('service-page')}}" class="nav-item nav-link {{@url()->current() === @route('service-page') ? 'active' : ''}}">Services</a>
                         <a href="{{@route('room-page')}}" class="nav-item nav-link {{@url()->current() === @route('room-page') ? 'active' : ''}}">Rooms</a>
@@ -50,7 +51,7 @@
                         </div>
                         <a href="{{route('contact-page')}}" class="nav-item nav-link {{@url()->current() === @route('contact-page') ? 'active' : ''}}">Contact</a>
                     </div>
-                    <a href="https://htmlcodex.com/hotel-html-template-pro" class="btn btn-primary rounded-0 py-4 px-md-5 d-none d-lg-block">Premium Version<i class="fa fa-arrow-right ms-3"></i></a>
+{{--                    <a href="https://htmlcodex.com/hotel-html-template-pro" class="btn btn-primary rounded-0 py-4 px-md-5 d-none d-lg-block">Premium Version<i class="fa fa-arrow-right ms-3"></i></a>--}}
                 </div>
             </nav>
         </div>
