@@ -14,10 +14,13 @@
                     <div id="room-carousel" class="carousel slide mb-5 wow fadeIn" data-bs-ride="carousel" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
                         <div class="carousel-inner">
                             <div class="carousel-item">
-                                <img class="w-100" src="/assets/images/carousel-1.jpg" alt="Image">
+                                <img class="w-100" src="/assets/images/1.1.jpg" alt="Image">
                             </div>
                             <div class="carousel-item active">
-                                <img class="w-100" src="/assets/images/carousel-2.jpg" alt="Image">
+                                <img class="w-100" src="/assets/images/1.2.jpg" alt="Image">
+                            </div>
+                            <div class="carousel-item active">
+                                <img class="w-100" src="/assets/images/1.3.jpg" alt="Image">
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#room-carousel" data-bs-slide="prev">
@@ -28,6 +31,7 @@
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
                         </button>
+                        
                     </div>
                     <div class="d-flex align-items-center mb-4">
                         <h1 class="mb-0">Junior Suite</h1>
