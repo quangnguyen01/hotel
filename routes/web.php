@@ -47,4 +47,5 @@ Route::get('/testimonial', function () {
 
 Route::get('/room-detail', function() {
    return view('clients/room-detail');
-});
+})->name('room-detail');
+
