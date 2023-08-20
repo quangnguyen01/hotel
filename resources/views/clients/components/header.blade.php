@@ -30,7 +30,7 @@
             </div>
             <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-3 p-lg-0">
                 <a href="index.html" class="navbar-brand d-block d-lg-none">
-                    <h1 class="m-0 text-primary text-uppercase">Hotelier</h1>
+                    <h1 class="m-0 text-primary text-uppercase">Merry House</h1>
                 </a>
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
@@ -45,8 +45,7 @@
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu rounded-0 m-0">
                                 <a href="{{@route('booking-page')}}" class="dropdown-item">Booking</a>
-                                <a href="{{@route('team-page')}}" class="dropdown-item">Our Team</a>
-                                <a href="{{@route('testimonial-page')}}" class="dropdown-item">Testimonial</a>
+                                <a href="{{@route('testimonial-page')}}" class="dropdown-item">Đánh giá</a>
                             </div>
                         </div>
                         <a href="{{route('contact-page')}}" class="nav-item nav-link {{@url()->current() === @route('contact-page') ? 'active' : ''}}">Contact</a>

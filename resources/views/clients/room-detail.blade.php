@@ -19,6 +19,24 @@
                             <div class="carousel-item active">
                                 <img class="w-100" src="/assets/images/1.2.jpg" alt="Image">
                             </div>
+                            <div class="carousel-item">
+                                <img class="w-100" src="/assets/images/1.3.jpg" alt="Image">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="w-100" src="/assets/images/1.4.jpg" alt="Image">
+                            </div> 
+                            <div class="carousel-item">
+                                <img class="w-100" src="/assets/images/1.6.jpg" alt="Image">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="w-100" src="/assets/images/1.7.jpg" alt="Image">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="w-100" src="/assets/images/1.8.jpg" alt="Image">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="w-100" src="/assets/images/1.9.jpg" alt="Image">
+                            </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#room-carousel" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -31,7 +49,7 @@
                         
                     </div>
                     <div class="d-flex align-items-center mb-4">
-                        <h1 class="mb-0">Junior Suite</h1>
+                        <h1 class="mb-0">Deluxe studio room</h1>
                         <div class="ps-3">
                             <small class="fa fa-star text-primary"></small>
                             <small class="fa fa-star text-primary"></small>
@@ -41,8 +59,8 @@
                         </div>
                     </div>
                     <div class="d-flex flex-wrap pb-4 m-n1">
-                        <small class="bg-light rounded py-1 px-3 m-1"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
-                        <small class="bg-light rounded py-1 px-3 m-1"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                        <small class="bg-light rounded py-1 px-3 m-1"><i class="fa fa-bed text-primary me-2"></i>1 Bed</small>
+                        <small class="bg-light rounded py-1 px-3 m-1"><i class="fa fa-bath text-primary me-2"></i>1 Bath</small>
                         <small class="bg-light rounded py-1 px-3 m-1"><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
                         <small class="bg-light rounded py-1 px-3 m-1"><i class="fa fa-tv text-primary me-2"></i>TV</small>
                         <small class="bg-light rounded py-1 px-3 m-1"><i class="fa fa-fan text-primary me-2"></i>AC</small>
@@ -167,7 +185,10 @@
                                         <span>info@example.com</span>
                                     </div>
                                 </div>
-                                <iframe class="position-relative rounded w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd" frameborder="0" style="min-height: 350px; border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                                <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Vinhomes Imperia Hải Phòng&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://connectionsgame.org/">Connections Game</a>
+                        </div>
+                            <style>.mapouter{position:relative;text-align:right;width:600px;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:600px;height:400px;}.gmap_iframe {width:600px!important;height:400px!important;}</style>
+                        </div>
                             </div>
                             <div id="tab-4" class="tab-pane fade show p-0">
                                 <div class="mb-4">
@@ -258,8 +279,8 @@
 
                     <div class="bg-light mb-5 wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
                         <div class="border-bottom text-center text-dark p-3 pt-4 mb-3">
-                            <span class="align-top fs-4 lh-base">$</span>
-                            <span class="align-middle fs-1 lh-sm fw-bold">49.00</span>
+                            <span class="align-top fs-4 lh-base">VND</span>
+                            <span class="align-middle fs-1 lh-sm fw-bold">850.000</span>
                             <span class="align-bottom fs-6 lh-lg">/ Night</span>
                         </div>
                         <div class="row g-3 p-4 pt-2">
