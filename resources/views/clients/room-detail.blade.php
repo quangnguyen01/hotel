@@ -31,7 +31,7 @@
                         
                     </div>
                     <div class="d-flex align-items-center mb-4">
-                        <h1 class="mb-0">Junior Suite</h1>
+                        <h1 class="mb-0">Phòng Standard</h1>
                         <div class="ps-3">
                             <small class="fa fa-star text-primary"></small>
                             <small class="fa fa-star text-primary"></small>
@@ -100,12 +100,7 @@
                                 </p>
                             </div>
                             <div id="tab-2" class="tab-pane fade show p-0">
-                                <p>Voluptua est takimata stet invidunt sed rebum nonumy stet, clita aliquyam dolores
-                                    vero stet consetetur elitr takimata rebum sanctus. Sit sed accusam stet sit
-                                    nonumy kasd diam dolores, sanctus lorem kasd duo dolor dolor vero sit et. Labore
-                                    ipsum duo sanctus amet eos et. Consetetur no sed et aliquyam ipsum justo et,
-                                    clita lorem sit vero amet amet est dolor elitr, stet et no diam sit. Dolor erat
-                                    justo dolore sit invidunt.
+                                <p>
                                 </p>
                                 <div class="row g-4">
                                     <div class="col-sm-6 d-flex align-items-center justify-content-between">
@@ -175,7 +170,7 @@
                                     <div class="d-flex mb-4">
                                         <img src="/assets/images/team-1.jpg" class="img-fluid rounded" style="width: 45px; height: 45px;">
                                         <div class="ps-3">
-                                            <h6>John Doe <small class="text-body fw-normal fst-italic">01 Jan 2045</small></h6>
+                                            <h6>Dương <small class="text-body fw-normal fst-italic">18 Aug 2023</small></h6>
                                             <div class="mb-2">
                                                 <small class="fa fa-star text-primary"></small>
                                                 <small class="fa fa-star text-primary"></small>
@@ -183,15 +178,14 @@
                                                 <small class="fa fa-star text-primary"></small>
                                                 <small class="fa fa-star text-primary"></small>
                                             </div>
-                                            <p class="mb-2">Diam amet duo labore stet elitr invidunt ea clita ipsum voluptua, tempor labore
-                                                accusam ipsum et no at. Kasd diam tempor rebum magna dolores sed eirmod</p>
+                                            <p class="mb-2">Sạch sẽ, giá rẻ, nhân viên phục vụ tận tình, khá gần trung tâm</p>
                                             <a href=""><i class="fa fa-reply me-2"></i> Reply</a>
                                         </div>
                                     </div>
                                     <div class="d-flex mb-4">
                                         <img src="/assets/images/team-1.jpg" class="img-fluid rounded" style="width: 45px; height: 45px;">
                                         <div class="ps-3">
-                                            <h6>John Doe <small class="text-body fw-normal fst-italic">01 Jan 2045</small></h6>
+                                            <h6>Kiều <small class="text-body fw-normal fst-italic">08 Aug 2023</small></h6>
                                             <div class="mb-2">
                                                 <small class="fa fa-star text-primary"></small>
                                                 <small class="fa fa-star text-primary"></small>
@@ -199,15 +193,16 @@
                                                 <small class="fa fa-star text-primary"></small>
                                                 <small class="fa fa-star text-primary"></small>
                                             </div>
-                                            <p class="mb-2">Diam amet duo labore stet elitr invidunt ea clita ipsum voluptua, tempor labore
-                                                accusam ipsum et no at. Kasd diam tempor rebum magna dolores sed eirmod</p>
+                                            <p class="mb-2">Không gian yên tĩnh, nhân viên lễ phép chu đáo,
+                                                 phòng sạch sẽ đầy đủ tiện nghi. Nước nóng luôn có và có free 2 chai nước trong phòng. 
+                                                 Nhân viên có hỗ trợ thêm về check in cũng như check out.</p>
                                             <a href=""><i class="fa fa-reply me-2"></i> Reply</a>
                                         </div>
                                     </div>
                                     <div class="d-flex ms-5 mb-4">
                                         <img src="/assets/images/team-1.jpg" class="img-fluid rounded" style="width: 45px; height: 45px;">
                                         <div class="ps-3">
-                                            <h6>John Doe <small class="text-body fw-normal fst-italic">01 Jan 2045</small></h6>
+                                            <h6>Thi <small class="text-body fw-normal fst-italic">17 Aug 2023</small></h6>
                                             <div class="mb-2">
                                                 <small class="fa fa-star text-primary"></small>
                                                 <small class="fa fa-star text-primary"></small>
@@ -215,8 +210,7 @@
                                                 <small class="fa fa-star text-primary"></small>
                                                 <small class="fa fa-star text-primary"></small>
                                             </div>
-                                            <p class="mb-2">Diam amet duo labore stet elitr invidunt ea clita ipsum voluptua, tempor labore
-                                                accusam ipsum et no at. Kasd diam tempor rebum magna dolores sed eirmod</p>
+                                            <p class="mb-2">Phòng sang trọng đẹp. Giá lại ưu dai, căn hộ trong khu vinhome rất đẹp, yên tĩnh cao cấp. Mình rất thích</p>
                                             <a href=""><i class="fa fa-reply me-2"></i> Reply</a>
                                         </div>
                                     </div>
@@ -260,7 +254,7 @@
                         <div class="border-bottom text-center text-dark p-3 pt-4 mb-3">
                             <span class="align-top fs-4 lh-base">$</span>
                             <span class="align-middle fs-1 lh-sm fw-bold">49.00</span>
-                            <span class="align-bottom fs-6 lh-lg">/ Night</span>
+                            <span class="align-bottom fs-6 lh-lg">/ Day</span>
                         </div>
                         <div class="row g-3 p-4 pt-2">
                             <div class="col-12">
@@ -330,9 +324,9 @@
                     <div class="border p-1 wow fadeInUp" data-wow-delay="0.1s" style="visibility: hidden; animation-delay: 0.1s; animation-name: none;">
                         <div class="border p-4">
                             <h4 class="section-title text-start mb-4">Help &amp; Support</h4>
-                            <p>Lorem sed erat elitr magna magna labore duo elitr ipsum duo. Et sed duo rebum lorem sed stet sed</p>
+                            <p>Nếu có bất kì câu hỏi hay thắc mắc nào vui lòng liên hệ với chúng tôi qua Số điện thoại</p>
                             <div class="bg-primary text-center p-3">
-                                <h4 class="text-white m-0">+012 345 67890</h4>
+                                <h4 class="text-white m-0">(+84) 987 808 998</h4>
                             </div>
                         </div>
                     </div>

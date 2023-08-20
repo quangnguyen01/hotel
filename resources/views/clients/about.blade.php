@@ -13,7 +13,11 @@
                 <div class="col-lg-6">
                     <h6 class="section-title text-start text-primary text-uppercase">About Us</h6>
                     <h1 class="mb-4">Welcome to <span class="text-primary text-uppercase">Merry House</span></h1>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                    <p class="mb-4">Nằm trong quần thể Vinhomes Imperia,
+                         MerryHouse là khu căn hộ cao cấp với đầy đủ công năng và dịch vụ. 
+                         Chúng tôi không chỉ cung cấp các loại căn hộ mà còn cung cấp dịch vụ cao cấp đi kèm.
+                          Bên cạnh đó, cùng với dịch vụ chuyên nghiệp sẽ mang đến cho khách hàng những trải nghiệm tuyệt 
+                          vời khi nghỉ dưỡng tại căn hộ MerryHouset</p>
                     <div class="row g-3 pb-4">
                         <div class="col-sm-4 wow fadeIn" data-wow-delay="0.1s">
                             <div class="border rounded p-1">

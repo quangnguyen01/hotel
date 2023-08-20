@@ -13,7 +13,11 @@
                 <div class="col-lg-6">
                     <h6 class="section-title text-start text-primary text-uppercase">About Us</h6>
                     <h1 class="mb-4">Welcome to <span class="text-primary text-uppercase">Merry House</span></h1>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                    <p class="mb-4">Nằm trong quần thể Vinhomes Imperia,
+                         MerryHouse là khu căn hộ cao cấp với đầy đủ công năng và dịch vụ. 
+                         Chúng tôi không chỉ cung cấp các loại căn hộ mà còn cung cấp dịch vụ cao cấp đi kèm.
+                          Bên cạnh đó, cùng với dịch vụ chuyên nghiệp sẽ mang đến cho khách hàng những trải nghiệm tuyệt 
+                          vời khi nghỉ dưỡng tại căn hộ MerryHouse</p>
                     <div class="row g-3 pb-4">
                         <div class="col-sm-4 wow fadeIn" data-wow-delay="0.1s">
                             <div class="border rounded p-1">
@@ -79,11 +83,11 @@
                     <div class="room-item shadow rounded overflow-hidden">
                         <div class="position-relative">
                             <img class="img-fluid" src="/assets/images/room-1.jpg" alt="">
-                            <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$100/Night</small>
+                            <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">550.000VND/Day</small>
                         </div>
                         <div class="p-4 mt-2">
                             <div class="d-flex justify-content-between mb-3">
-                                <h5 class="mb-0">Junior Suite</h5>
+                                <h5 class="mb-0">Phòng Standard</h5>
                                 <div class="ps-2">
                                     <small class="fa fa-star text-primary"></small>
                                     <small class="fa fa-star text-primary"></small>
@@ -93,13 +97,13 @@
                                 </div>
                             </div>
                             <div class="d-flex mb-3">
-                                <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
-                                <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                                <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>2 Bed</small>
+                                <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>1 Bath</small>
                                 <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
                             </div>
-                            <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                            <p class="text-body mb-3">Căn hộ có máy lạnh và có lối vào riêng, 1 phòng khách, 2 phòng ngủ riêng biệt và 1 phòng tắm với bồn tắm cùng vòi sen.</p>
                             <div class="d-flex justify-content-between">
-                                <a class="btn btn-sm btn-primary rounded py-2 px-4" href="{{@route('room-detail')}}">View Detail</a>
+                                <a class="btn btn-sm btn-primary rounded py-2 px-4" href="{{@route('room-detail')}}">Xem Phòng</a>
                                 <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
                             </div>
                         </div>
@@ -109,11 +113,11 @@
                     <div class="room-item shadow rounded overflow-hidden">
                         <div class="position-relative">
                             <img class="img-fluid" src="/assets/images/room-2.jpg" alt="">
-                            <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$100/Night</small>
+                            <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">600.000VND/Day</small>
                         </div>
                         <div class="p-4 mt-2">
                             <div class="d-flex justify-content-between mb-3">
-                                <h5 class="mb-0">Executive Suite</h5>
+                                <h5 class="mb-0">Phòng Suite</h5>
                                 <div class="ps-2">
                                     <small class="fa fa-star text-primary"></small>
                                     <small class="fa fa-star text-primary"></small>
@@ -123,13 +127,13 @@
                                 </div>
                             </div>
                             <div class="d-flex mb-3">
-                                <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
+                                <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>2 Bed</small>
                                 <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
                                 <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
                             </div>
-                            <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                            <p class="text-body mb-3">Căn hộ có máy lạnh và có lối vào riêng, 1 phòng khách, 2 phòng ngủ riêng biệt và 2 phòng tắm với bồn tắm cùng vòi sen </p>
                             <div class="d-flex justify-content-between">
-                                <a class="btn btn-sm btn-primary rounded py-2 px-4" href="{{@route('room-detail')}}">View Detail</a>
+                                <a class="btn btn-sm btn-primary rounded py-2 px-4" href="{{@route('room-detail')}}">Xem Phòng</a>
                                 <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
                             </div>
                         </div>
@@ -139,11 +143,11 @@
                     <div class="room-item shadow rounded overflow-hidden">
                         <div class="position-relative">
                             <img class="img-fluid" src="/assets/images/room-3.jpg" alt="">
-                            <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$100/Night</small>
+                            <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">700.000VND/Dayt</small>
                         </div>
                         <div class="p-4 mt-2">
                             <div class="d-flex justify-content-between mb-3">
-                                <h5 class="mb-0">Super Deluxe</h5>
+                                <h5 class="mb-0">Phòng Deluxe</h5>
                                 <div class="ps-2">
                                     <small class="fa fa-star text-primary"></small>
                                     <small class="fa fa-star text-primary"></small>
@@ -157,9 +161,9 @@
                                 <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
                                 <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
                             </div>
-                            <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                            <p class="text-body mb-3">Căn hộ có máy lạnh và có lối vào riêng, 1 phòng khách, 2 phòng ngủ riêng biệt và 2 phòng tắm với bồn tắm cùng vòi sen.</p>
                             <div class="d-flex justify-content-between">
-                                <a class="btn btn-sm btn-primary rounded py-2 px-4" href="{{@route('room-detail')}}">View Detail</a>
+                                <a class="btn btn-sm btn-primary rounded py-2 px-4" href="{{@route('room-detail')}}">Xem Phòng</a>
                                 <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
                             </div>
                         </div>
