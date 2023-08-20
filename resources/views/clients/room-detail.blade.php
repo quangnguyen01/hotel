@@ -19,9 +19,6 @@
                             <div class="carousel-item active">
                                 <img class="w-100" src="/assets/images/1.2.jpg" alt="Image">
                             </div>
-                            <div class="carousel-item active">
-                                <img class="w-100" src="/assets/images/1.3.jpg" alt="Image">
-                            </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#room-carousel" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -52,19 +49,18 @@
                         <small class="bg-light rounded py-1 px-3 m-1"><i class="fa fa-user-cog text-primary me-2"></i>Laundry</small>
                         <small class="bg-light rounded py-1 px-3 m-1"><i class="fa fa-utensils text-primary me-2"></i>Dinner</small>
                     </div>
-                    <p>Sadipscing labore amet rebum est et justo gubergren. Et eirmod ipsum sit diam ut
-                        magna lorem. Nonumy vero labore lorem sanctus rebum et lorem magna kasd, stet
-                        amet magna accusam consetetur eirmod. Kasd accusam sit ipsum sadipscing et at at
-                        sanctus et. Ipsum sit gubergren dolores et, consetetur justo invidunt at et
-                        aliquyam ut et vero clita. Diam sea sea no sed dolores diam nonumy, gubergren
-                        sit stet no diam kasd vero.
+                    <p>
+                    Tọa lạc tại thành phố Hải Phòng, Merry House Imperia có WiFi miễn phí, khu vườn, sảnh khách chung và quầy bar.
+                    Chỗ nghỉ được bố trí máy điều hòa, 
+                    bếp ăn đầy đủ tiện nghi với khu vực ăn uống, 
+                    TV màn hình phẳng cũng như phòng tắm riêng đi kèm vòi xịt/chậu rửa vệ sinh, 
+                    đồ vệ sinh cá nhân miễn phí và máy sấy tóc. Các căn còn được trang bị tủ lạnh, l
+                    ò vi sóng, bếp nấu ăn và ấm đun nước.
                     </p>
-                    <p class="mb-5">Voluptua est takimata stet invidunt sed rebum nonumy stet, clita aliquyam dolores
-                        vero stet consetetur elitr takimata rebum sanctus. Sit sed accusam stet sit
-                        nonumy kasd diam dolores, sanctus lorem kasd duo dolor dolor vero sit et. Labore
-                        ipsum duo sanctus amet eos et. Consetetur no sed et aliquyam ipsum justo et,
-                        clita lorem sit vero amet amet est dolor elitr, stet et no diam sit. Dolor erat
-                        justo dolore sit invidunt.
+                    <p class="mb-5">Khách sạn căn hộ này cũng có sân chơi cho trẻ em.
+                                    Merry House Imperia nằm cách Nhà Hát Lớn Hải Phòng 3km và trung tâm thương mại Vincom Plaza Hải Phòng 3,5 km. 
+                                    Sân bay gần nhất là sân bay quốc tế Cát Bi, cách đó 10 km, 
+                                    và chỗ nghỉ cung cấp dịch vụ đưa đón sân bay với một khoản phụ phí.
                     </p>
                     <div class="tab-class wow fadeInUp" data-wow-delay="0.1s" style="visibility: hidden; animation-delay: 0.1s; animation-name: none;">
                         <ul class="nav nav-pills d-flex justify-content-between border-bottom mb-4">
@@ -95,19 +91,12 @@
                         </ul>
                         <div class="tab-content">
                             <div id="tab-1" class="tab-pane fade show p-0 active">
-                                <p>Sadipscing labore amet rebum est et justo gubergren. Et eirmod ipsum sit diam ut
-                                    magna lorem. Nonumy vero labore lorem sanctus rebum et lorem magna kasd, stet
-                                    amet magna accusam consetetur eirmod. Kasd accusam sit ipsum sadipscing et at at
-                                    sanctus et. Ipsum sit gubergren dolores et, consetetur justo invidunt at et
-                                    aliquyam ut et vero clita. Diam sea sea no sed dolores diam nonumy, gubergren
-                                    sit stet no diam kasd vero.
-                                </p>
-                                <p>Voluptua est takimata stet invidunt sed rebum nonumy stet, clita aliquyam dolores
-                                    vero stet consetetur elitr takimata rebum sanctus. Sit sed accusam stet sit
-                                    nonumy kasd diam dolores, sanctus lorem kasd duo dolor dolor vero sit et. Labore
-                                    ipsum duo sanctus amet eos et. Consetetur no sed et aliquyam ipsum justo et,
-                                    clita lorem sit vero amet amet est dolor elitr, stet et no diam sit. Dolor erat
-                                    justo dolore sit invidunt.
+                                <p>Căn hộ máy lạnh này có lối vào riêng, 1 phòng khách,
+                                     2 phòng ngủ riêng biệt và 1 phòng tắm với bồn tắm cùng vòi sen.
+                                    Trong nhà bếp đầy đủ tiện nghi, du khách sẽ tìm thấy bếp nấu ăn, 
+                                    tủ lạnh, đồ dùng nhà bếp và lò vi sóng. Căn hộ có tường cách âm, 
+                                    khu vực tiếp khách, khu vực ăn uống, tủ quần áo và TV màn hình phẳng. 
+                                     Các đơn vị cung cấp 3 giường..
                                 </p>
                             </div>
                             <div id="tab-2" class="tab-pane fade show p-0">
