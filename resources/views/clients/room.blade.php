@@ -13,7 +13,15 @@
                 <div class="col-lg-6">
                     <h6 class="section-title text-start text-primary text-uppercase">About Us</h6>
                     <h1 class="mb-4">Welcome to <span class="text-primary text-uppercase">Merry House</span></h1>
+<<<<<<< HEAD
                     <p class="mb-4"></p>
+=======
+                    <p class="mb-4">Nằm trong quần thể Vinhomes Imperia,
+                         MerryHouse là khu căn hộ cao cấp với đầy đủ công năng và dịch vụ. 
+                         Chúng tôi không chỉ cung cấp các loại căn hộ mà còn cung cấp dịch vụ cao cấp đi kèm.
+                          Bên cạnh đó, cùng với dịch vụ chuyên nghiệp sẽ mang đến cho khách hàng những trải nghiệm tuyệt 
+                          vời khi nghỉ dưỡng tại căn hộ MerryHouse</p>
+>>>>>>> 83e3f5b1acdd9c403137656c655d5cd530dd32b6
                     <div class="row g-3 pb-4">
                         <div class="col-sm-4 wow fadeIn" data-wow-delay="0.1s">
                             <div class="border rounded p-1">
@@ -78,12 +86,21 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="room-item shadow rounded overflow-hidden">
                         <div class="position-relative">
+<<<<<<< HEAD
                             <img class="img-fluid" src="/assets/images/1.9.jpg" alt=""style="height: 300px">
                             <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">850.000VND/Night</small>
                         </div>
                         <div class="p-4 mt-2">
                             <div class="d-flex justify-content-between mb-3">
                                 <h5 class="mb-0">Deluxe room</h5>
+=======
+                            <img class="img-fluid" src="/assets/images/room-1.jpg" alt="">
+                            <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">550.000VND/Day</small>
+                        </div>
+                        <div class="p-4 mt-2">
+                            <div class="d-flex justify-content-between mb-3">
+                                <h5 class="mb-0">Phòng Standard</h5>
+>>>>>>> 83e3f5b1acdd9c403137656c655d5cd530dd32b6
                                 <div class="ps-2">
                                     <small class="fa fa-star text-primary"></small>
                                     <small class="fa fa-star text-primary"></small>
@@ -93,13 +110,21 @@
                                 </div>
                             </div>
                             <div class="d-flex mb-3">
+<<<<<<< HEAD
                                 <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>1 Bed</small>
                                 <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>1 Bath</small>
                                 <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
                             </div>
                             <p class="text-body mb-3">Boasting a private entrance, this air-conditioned apartment features 1 living room, 1 separate bedroom and 1 bathroom with a bath and a shower.</p>
+=======
+                                <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>2 Bed</small>
+                                <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>1 Bath</small>
+                                <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
+                            </div>
+                            <p class="text-body mb-3">Căn hộ có máy lạnh và có lối vào riêng, 1 phòng khách, 2 phòng ngủ riêng biệt và 1 phòng tắm với bồn tắm cùng vòi sen.</p>
+>>>>>>> 83e3f5b1acdd9c403137656c655d5cd530dd32b6
                             <div class="d-flex justify-content-between">
-                                <a class="btn btn-sm btn-primary rounded py-2 px-4" href="{{@route('room-detail')}}">View Detail</a>
+                                <a class="btn btn-sm btn-primary rounded py-2 px-4" href="{{@route('room-detail')}}">Xem Phòng</a>
                                 <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
                             </div>
                         </div>
@@ -108,12 +133,21 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="room-item shadow rounded overflow-hidden">
                         <div class="position-relative">
+<<<<<<< HEAD
                             <img class="img-fluid" src="/assets/images/4.6.jpg" alt="" style="height: 300px">
                             <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">650.000VND/Night</small>
                         </div>
                         <div class="p-4 mt-2">
                             <div class="d-flex justify-content-between mb-3">
                                 <h5 class="mb-0">Studio Room</h5>
+=======
+                            <img class="img-fluid" src="/assets/images/room-2.jpg" alt="">
+                            <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">600.000VND/Day</small>
+                        </div>
+                        <div class="p-4 mt-2">
+                            <div class="d-flex justify-content-between mb-3">
+                                <h5 class="mb-0">Phòng Suite</h5>
+>>>>>>> 83e3f5b1acdd9c403137656c655d5cd530dd32b6
                                 <div class="ps-2">
                                     <small class="fa fa-star text-primary"></small>
                                     <small class="fa fa-star text-primary"></small>
@@ -123,13 +157,21 @@
                                 </div>
                             </div>
                             <div class="d-flex mb-3">
+<<<<<<< HEAD
                                 <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>1 Bed</small>
                                 <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>1 Bath</small>
                                 <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
                             </div>
                             <p class="text-body mb-3">This studio is air-conditioned and has a seating area with a flat-screen TV, a private entrance, soundproof walls, a dining area, as well as a wardrobe. The unit has 1 bed.</p>
+=======
+                                <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>2 Bed</small>
+                                <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                                <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
+                            </div>
+                            <p class="text-body mb-3">Căn hộ có máy lạnh và có lối vào riêng, 1 phòng khách, 2 phòng ngủ riêng biệt và 2 phòng tắm với bồn tắm cùng vòi sen </p>
+>>>>>>> 83e3f5b1acdd9c403137656c655d5cd530dd32b6
                             <div class="d-flex justify-content-between">
-                                <a class="btn btn-sm btn-primary rounded py-2 px-4" href="{{@route('room-detail')}}">View Detail</a>
+                                <a class="btn btn-sm btn-primary rounded py-2 px-4" href="{{@route('room-detail')}}">Xem Phòng</a>
                                 <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
                             </div>
                         </div>
@@ -138,12 +180,21 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
                     <div class="room-item shadow rounded overflow-hidden">
                         <div class="position-relative">
+<<<<<<< HEAD
                             <img class="img-fluid" src="/assets/images/5.1.jpg" alt="" style="height: 300px">
                             <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">1.100.000VND/Night</small>
                         </div>
                         <div class="p-4 mt-2">
                             <div class="d-flex justify-content-between mb-3">
                                 <h5 class="mb-0">Two Sleeping room</h5>
+=======
+                            <img class="img-fluid" src="/assets/images/room-3.jpg" alt="">
+                            <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">700.000VND/Dayt</small>
+                        </div>
+                        <div class="p-4 mt-2">
+                            <div class="d-flex justify-content-between mb-3">
+                                <h5 class="mb-0">Phòng Deluxe</h5>
+>>>>>>> 83e3f5b1acdd9c403137656c655d5cd530dd32b6
                                 <div class="ps-2">
                                     <small class="fa fa-star text-primary"></small>
                                     <small class="fa fa-star text-primary"></small>
@@ -157,6 +208,7 @@
                                 <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
                                 <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
                             </div>
+<<<<<<< HEAD
                             <p class="text-body mb-3">The apartment provides 2 sleeping room, soundproof walls, a seating area, a dining area, a wardrobe and a flat-screen TV. The unit offers 3 beds.</p>
                             <div class="d-flex justify-content-between">
                                 <a class="btn btn-sm btn-primary rounded py-2 px-4" href="{{@route('room-detail')}}">View Detail</a>
@@ -278,8 +330,11 @@
                                 <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
                             </div>
                             <p class="text-body mb-3">Boasting a private entrance, this air-conditioned apartment features 1 living room, 1 separate bedroom and 1 bathroom with a bath and a shower.</p>
+=======
+                            <p class="text-body mb-3">Căn hộ có máy lạnh và có lối vào riêng, 1 phòng khách, 2 phòng ngủ riêng biệt và 2 phòng tắm với bồn tắm cùng vòi sen.</p>
+>>>>>>> 83e3f5b1acdd9c403137656c655d5cd530dd32b6
                             <div class="d-flex justify-content-between">
-                                <a class="btn btn-sm btn-primary rounded py-2 px-4" href="{{@route('room-detail')}}">View Detail</a>
+                                <a class="btn btn-sm btn-primary rounded py-2 px-4" href="{{@route('room-detail')}}">Xem Phòng</a>
                                 <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
                             </div>
                         </div>
