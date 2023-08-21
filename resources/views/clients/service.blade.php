@@ -22,7 +22,7 @@
                             </div>
                         </div>
                         <h5 class="mb-3">Rooms & Appartment</h5>
-                        <p class="text-body mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                        <p class="text-body mb-0">Fully furnished apartment for you to live comfortably.</p>
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
@@ -33,7 +33,7 @@
                             </div>
                         </div>
                         <h5 class="mb-3">Food & Restaurant</h5>
-                        <p class="text-body mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                        <p class="text-body mb-0">There are many restaurants around the apartment you live in for you to choose from.</p>
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -44,7 +44,7 @@
                             </div>
                         </div>
                         <h5 class="mb-3">Spa & Fitness</h5>
-                        <p class="text-body mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                        <p class="text-body mb-0">Right in your area there are places for you to exercise and rela</p>
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
@@ -54,8 +54,8 @@
                                 <i class="fa fa-swimmer fa-2x text-primary"></i>
                             </div>
                         </div>
-                        <h5 class="mb-3">Sports & Gaming</h5>
-                        <p class="text-body mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                        <h5 class="mb-3">Sports</h5>
+                        <p class="text-body mb-0">Has its own area to play sports: football, basketball, badminton, tennis</p>
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -66,7 +66,7 @@
                             </div>
                         </div>
                         <h5 class="mb-3">Event & Party</h5>
-                        <p class="text-body mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                        <p class="text-body mb-0">There is an outdoor party area with a roof and a large enough number of seats</p>
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
@@ -77,7 +77,7 @@
                             </div>
                         </div>
                         <h5 class="mb-3">GYM & Yoga</h5>
-                        <p class="text-body mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                        <p class="text-body mb-0">There are many gyms around your apartment and there are trainers as well</p>
                     </a>
                 </div>
             </div>
@@ -91,7 +91,7 @@
         <div class="container">
             <div class="owl-carousel testimonial-carousel py-5">
                 <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
-                    <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd et erat magna eos</p>
+                    <p></p>
                     <div class="d-flex align-items-center">
                         <img class="img-fluid flex-shrink-0 rounded" src="/assets/images/testimonial-1.jpg" style="width: 45px; height: 45px;">
                         <div class="ps-3">
@@ -102,7 +102,7 @@
                     <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
                 </div>
                 <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
-                    <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd et erat magna eos</p>
+                    <p></p>
                     <div class="d-flex align-items-center">
                         <img class="img-fluid flex-shrink-0 rounded" src="/assets/images/testimonial-2.jpg" style="width: 45px; height: 45px;">
                         <div class="ps-3">
@@ -113,7 +113,7 @@
                     <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
                 </div>
                 <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
-                    <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd et erat magna eos</p>
+                    <p></p>
                     <div class="d-flex align-items-center">
                         <img class="img-fluid flex-shrink-0 rounded" src="/assets/images/testimonial-3.jpg" style="width: 45px; height: 45px;">
                         <div class="ps-3">

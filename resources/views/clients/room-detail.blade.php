@@ -91,7 +91,7 @@
                             <li class="nav-item">
                                 <a class="d-flex align-items-center py-3" data-bs-toggle="pill" href="#tab-2">
                                     <i class="fa fa-dollar text-primary me-2"></i>
-                                    <h6 class="mb-0">Pricing</h6>
+                                    <h6 class="mb-0">Price</h6>
                                 </a>
                             </li>
                             <li class="nav-item">
@@ -118,43 +118,38 @@
                                 </p>
                             </div>
                             <div id="tab-2" class="tab-pane fade show p-0">
-                                <p>Voluptua est takimata stet invidunt sed rebum nonumy stet, clita aliquyam dolores
-                                    vero stet consetetur elitr takimata rebum sanctus. Sit sed accusam stet sit
-                                    nonumy kasd diam dolores, sanctus lorem kasd duo dolor dolor vero sit et. Labore
-                                    ipsum duo sanctus amet eos et. Consetetur no sed et aliquyam ipsum justo et,
-                                    clita lorem sit vero amet amet est dolor elitr, stet et no diam sit. Dolor erat
-                                    justo dolore sit invidunt.
+                                <p>
                                 </p>
                                 <div class="row g-4">
                                     <div class="col-sm-6 d-flex align-items-center justify-content-between">
                                         <span>Nightly:</span>
                                         <hr class="flex-grow-1 my-0 mx-3">
-                                        <span>$100</span>
+                                        <span>850.000VND</span>
                                     </div>
                                     <div class="col-sm-6 d-flex align-items-center justify-content-between">
                                         <span>Weekly:</span>
                                         <hr class="flex-grow-1 my-0 mx-3">
-                                        <span>$100</span>
+                                        <span>5.900.000VND</span>
                                     </div>
                                     <div class="col-sm-6 d-flex align-items-center justify-content-between">
                                         <span>Monthly:</span>
                                         <hr class="flex-grow-1 my-0 mx-3">
-                                        <span>$100</span>
+                                        <span>18.000.000VND</span>
                                     </div>
                                     <div class="col-sm-6 d-flex align-items-center justify-content-between">
                                         <span>Weekends:</span>
                                         <hr class="flex-grow-1 my-0 mx-3">
-                                        <span>$100</span>
+                                        <span>850.000VND</span>
                                     </div>
                                     <div class="col-sm-6 d-flex align-items-center justify-content-between">
                                         <span>Additional Guest:</span>
                                         <hr class="flex-grow-1 my-0 mx-3">
-                                        <span>$100</span>
+                                        <span>150.000VND</span>
                                     </div>
                                     <div class="col-sm-6 d-flex align-items-center justify-content-between">
                                         <span>Security Deposit:</span>
                                         <hr class="flex-grow-1 my-0 mx-3">
-                                        <span>$100</span>
+                                        <span>500.000VND</span>
                                     </div>
                                 </div>
                             </div>
@@ -166,7 +161,7 @@
                                                 <i class="fa fa-map-marker-alt text-primary"></i>
                                             </div>
                                         </div>
-                                        <span>123 Street, New York, USA</span>
+                                        <span>BH 04 – 12A, Vinhomes Imperia, Hai Phong city</span>
                                     </div>
                                     <div class="col-md-4 d-flex align-items-center">
                                         <div class="flex-shrink-0 border rounded p-1 me-3" style="width: 45px; height: 45px;">
@@ -196,7 +191,7 @@
                                     <div class="d-flex mb-4">
                                         <img src="/assets/images/team-1.jpg" class="img-fluid rounded" style="width: 45px; height: 45px;">
                                         <div class="ps-3">
-                                            <h6>John Doe <small class="text-body fw-normal fst-italic">01 Jan 2045</small></h6>
+                                            <h6>John Doe <small class="text-body fw-normal fst-italic">01 Jan 2023</small></h6>
                                             <div class="mb-2">
                                                 <small class="fa fa-star text-primary"></small>
                                                 <small class="fa fa-star text-primary"></small>
@@ -204,8 +199,7 @@
                                                 <small class="fa fa-star text-primary"></small>
                                                 <small class="fa fa-star text-primary"></small>
                                             </div>
-                                            <p class="mb-2">Diam amet duo labore stet elitr invidunt ea clita ipsum voluptua, tempor labore
-                                                accusam ipsum et no at. Kasd diam tempor rebum magna dolores sed eirmod</p>
+                                            <p class="mb-2">Phòng đầy đủ tiện nghi sạch đẹp thoáng mát gần trung tâm</p>
                                             <a href=""><i class="fa fa-reply me-2"></i> Reply</a>
                                         </div>
                                     </div>
@@ -220,8 +214,7 @@
                                                 <small class="fa fa-star text-primary"></small>
                                                 <small class="fa fa-star text-primary"></small>
                                             </div>
-                                            <p class="mb-2">Diam amet duo labore stet elitr invidunt ea clita ipsum voluptua, tempor labore
-                                                accusam ipsum et no at. Kasd diam tempor rebum magna dolores sed eirmod</p>
+                                            <p class="mb-2">Phòng đầy đủ tiện nghi sạch đẹp thoáng mát gần trung tâm</p>
                                             <a href=""><i class="fa fa-reply me-2"></i> Reply</a>
                                         </div>
                                     </div>
@@ -236,8 +229,7 @@
                                                 <small class="fa fa-star text-primary"></small>
                                                 <small class="fa fa-star text-primary"></small>
                                             </div>
-                                            <p class="mb-2">Diam amet duo labore stet elitr invidunt ea clita ipsum voluptua, tempor labore
-                                                accusam ipsum et no at. Kasd diam tempor rebum magna dolores sed eirmod</p>
+                                            <p class="mb-2">Phòng đầy đủ tiện nghi sạch đẹp thoáng mát gần trung tâm</p>
                                             <a href=""><i class="fa fa-reply me-2"></i> Reply</a>
                                         </div>
                                     </div>
@@ -351,7 +343,7 @@
                     <div class="border p-1 wow fadeInUp" data-wow-delay="0.1s" style="visibility: hidden; animation-delay: 0.1s; animation-name: none;">
                         <div class="border p-4">
                             <h4 class="section-title text-start mb-4">Help &amp; Support</h4>
-                            <p>Lorem sed erat elitr magna magna labore duo elitr ipsum duo. Et sed duo rebum lorem sed stet sed</p>
+                            <p>Nếu bạn cần hỗ trợ gì từ chúng tôi xin hãy liên hệ</p>
                             <div class="bg-primary text-center p-3">
                                 <h4 class="text-white m-0">+012 345 67890</h4>
                             </div>

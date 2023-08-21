@@ -5,7 +5,7 @@
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="/assets/images/LOGO1.jpg" alt="Image">
+                    <img class="w-100" src="/assets/images/LOGO1.jpg" alt="Image" style="height: 500px;">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 700px;">
                             <h6 class="section-title text-white text-uppercase mb-3 animated slideInDown">Luxury Living</h6>
@@ -73,7 +73,7 @@
                             <div class="border rounded p-1">
                                 <div class="border rounded text-center p-4">
                                     <i class="fa fa-users fa-2x text-primary mb-2"></i>
-                                    <h2 class="mb-1" data-toggle="counter-up">2000</h2>
+                                    <h2 class="mb-1" data-toggle="counter-up">3000</h2>
                                     <p class="mb-0">Clients</p>
                                 </div>
                             </div>
@@ -84,17 +84,12 @@
                 <div class="col-lg-6">
                     <div class="row g-3">
                         <div class="col-6 text-end">
-                            <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.1s" src="/assets/images/about-1.jpg" style="margin-top: 25%;">
+                            <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.1s" src="/assets/images/logo3.jpg" style="margin-top: 25%;">
                         </div>
                         <div class="col-6 text-start">
-                            <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.3s" src="/assets/images/about-2.jpg">
+                            <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.3s" src="/assets/images/logo4.jpg">
                         </div>
-                        <div class="col-6 text-end">
-                            <img class="img-fluid rounded w-50 wow zoomIn" data-wow-delay="0.5s" src="/assets/images/about-3.jpg">
-                        </div>
-                        <div class="col-6 text-start">
-                            <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.7s" src="/assets/images/about-4.jpg">
-                        </div>
+
                     </div>
                 </div>
             </div>
@@ -114,7 +109,7 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="room-item shadow rounded overflow-hidden">
                         <div class="position-relative">
-                            <img class="img-fluid" src="/assets/images/1.9.jpg" alt="">
+                            <img class="img-fluid" src="/assets/images/1.9.jpg" alt="" style="height:300px">
                             <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">850.000VND/Night</small>
                         </div>
                         <div class="p-4 mt-2">
@@ -133,7 +128,7 @@
                                 <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>1 Bath</small>
                                 <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
                             </div>
-                            <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                            <p class="text-body mb-3">Boasting a private entrance, this air-conditioned apartment features 1 living room, 1 separate bedroom and 1 bathroom with a bath and a shower. </p>
                             <div class="d-flex justify-content-between">
                                 <a class="btn btn-sm btn-primary rounded py-2 px-4"href="{{@route('room-detail')}}">View Detail</a>
                                 <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
@@ -144,8 +139,8 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="room-item shadow rounded overflow-hidden">
                         <div class="position-relative">
-                            <img class="img-fluid" src="/assets/images/4.6.jpg" alt="">
-                            <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$100/Night</small>
+                            <img class="img-fluid" src="/assets/images/4.6.jpg" alt="" style="height:300px">
+                            <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">650.000VND/Night</small>
                         </div>
                         <div class="p-4 mt-2">
                             <div class="d-flex justify-content-between mb-3">
@@ -163,7 +158,7 @@
                                 <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>1 Bath</small>
                                 <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
                             </div>
-                            <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                            <p class="text-body mb-3">This studio is air-conditioned and has a seating area with a flat-screen TV, a private entrance, soundproof walls, a dining area, as well as a wardrobe. The unit has 1 bed.</p>
                             <div class="d-flex justify-content-between">
                                 <a class="btn btn-sm btn-primary rounded py-2 px-4" href="{{@route('room-detail')}}">View Detail</a>
                                 <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
@@ -174,8 +169,8 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
                     <div class="room-item shadow rounded overflow-hidden">
                         <div class="position-relative">
-                            <img class="img-fluid" src="/assets/images/5.1.jpg" alt="">
-                            <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">$100/Night</small>
+                            <img class="img-fluid" src="/assets/images/5.1.jpg" alt="" style="height:300px">
+                            <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">1.100.000VND/Night</small>
                         </div>
                         <div class="p-4 mt-2">
                             <div class="d-flex justify-content-between mb-3">
@@ -189,11 +184,11 @@
                                 </div>
                             </div>
                             <div class="d-flex mb-3">
-                                <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
+                                <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>2 Bed</small>
                                 <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
                                 <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
                             </div>
-                            <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                            <p class="text-body mb-3">The apartment provides 2 sleeping room, soundproof walls, a seating area, a dining area, a wardrobe and a flat-screen TV. The unit offers 3 beds.</p>
                             <div class="d-flex justify-content-between">
                                 <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
                                 <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
@@ -273,7 +268,7 @@
                             </div>
                         </div>
                         <h5 class="mb-3">Rooms & Appartment</h5>
-                        <p class="text-body mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                        <p class="text-body mb-0">Fully furnished apartment for you to live comfortably.</p>
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
@@ -284,7 +279,7 @@
                             </div>
                         </div>
                         <h5 class="mb-3">Food & Restaurant</h5>
-                        <p class="text-body mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                        <p class="text-body mb-0">There are many restaurants around the apartment you live in for you to choose from.</p>
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -295,7 +290,7 @@
                             </div>
                         </div>
                         <h5 class="mb-3">Spa & Fitness</h5>
-                        <p class="text-body mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                        <p class="text-body mb-0">Right in your area there are places for you to exercise and relax</p>
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
@@ -305,8 +300,8 @@
                                 <i class="fa fa-swimmer fa-2x text-primary"></i>
                             </div>
                         </div>
-                        <h5 class="mb-3">Sports & Gaming</h5>
-                        <p class="text-body mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                        <h5 class="mb-3">Sports</h5>
+                        <p class="text-body mb-0">Has its own area to play sports: football, basketball, badminton, tennis</p>
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -317,7 +312,7 @@
                             </div>
                         </div>
                         <h5 class="mb-3">Event & Party</h5>
-                        <p class="text-body mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                        <p class="text-body mb-0">There is an outdoor party area with a roof and a large enough number of seats</p>
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
@@ -328,7 +323,7 @@
                             </div>
                         </div>
                         <h5 class="mb-3">GYM & Yoga</h5>
-                        <p class="text-body mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                        <p class="text-body mb-0">There are many gyms around your apartment and there are trainers as well</p>
                     </a>
                 </div>
             </div>
