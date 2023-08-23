@@ -18,3 +18,7 @@
 @section('content')
     @yield('page-content')
 @endsection
+
+@section('custom_css')@yield('mix_css')@endsection
+
+@section('custom_js')@yield('mix_js')@endsection

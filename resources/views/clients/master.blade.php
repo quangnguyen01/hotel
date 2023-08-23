@@ -3,6 +3,7 @@
 
 <head>
   @include('clients.components.head')
+    @yield('custom_css')
 </head>
 
 <body>
@@ -81,6 +82,7 @@
 
 <!-- JavaScript Libraries -->
 @include('clients.components.script')
+@yield('custom_js')
 </body>
 
 </html>
