@@ -24,7 +24,7 @@
                             </div>
                             <div class="carousel-item">
                                 <img class="w-100" src="/assets/images/1.4.jpg" alt="Image">
-                            </div> 
+                            </div>
                             <div class="carousel-item">
                                 <img class="w-100" src="/assets/images/1.6.jpg" alt="Image">
                             </div>
@@ -46,14 +46,10 @@
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
                         </button>
-                        
+
                     </div>
                     <div class="d-flex align-items-center mb-4">
-<<<<<<< HEAD
-                        <h1 class="mb-0">Deluxe studio room</h1>
-=======
                         <h1 class="mb-0">Phòng Standard</h1>
->>>>>>> 83e3f5b1acdd9c403137656c655d5cd530dd32b6
                         <div class="ps-3">
                             <small class="fa fa-star text-primary"></small>
                             <small class="fa fa-star text-primary"></small>
@@ -73,15 +69,15 @@
                     </div>
                     <p>
                     Tọa lạc tại thành phố Hải Phòng, Merry House Imperia có WiFi miễn phí, khu vườn, sảnh khách chung và quầy bar.
-                    Chỗ nghỉ được bố trí máy điều hòa, 
-                    bếp ăn đầy đủ tiện nghi với khu vực ăn uống, 
-                    TV màn hình phẳng cũng như phòng tắm riêng đi kèm vòi xịt/chậu rửa vệ sinh, 
+                    Chỗ nghỉ được bố trí máy điều hòa,
+                    bếp ăn đầy đủ tiện nghi với khu vực ăn uống,
+                    TV màn hình phẳng cũng như phòng tắm riêng đi kèm vòi xịt/chậu rửa vệ sinh,
                     đồ vệ sinh cá nhân miễn phí và máy sấy tóc. Các căn còn được trang bị tủ lạnh, l
                     ò vi sóng, bếp nấu ăn và ấm đun nước.
                     </p>
                     <p class="mb-5">Khách sạn căn hộ này cũng có sân chơi cho trẻ em.
-                                    Merry House Imperia nằm cách Nhà Hát Lớn Hải Phòng 3km và trung tâm thương mại Vincom Plaza Hải Phòng 3,5 km. 
-                                    Sân bay gần nhất là sân bay quốc tế Cát Bi, cách đó 10 km, 
+                                    Merry House Imperia nằm cách Nhà Hát Lớn Hải Phòng 3km và trung tâm thương mại Vincom Plaza Hải Phòng 3,5 km.
+                                    Sân bay gần nhất là sân bay quốc tế Cát Bi, cách đó 10 km,
                                     và chỗ nghỉ cung cấp dịch vụ đưa đón sân bay với một khoản phụ phí.
                     </p>
                     <div class="tab-class wow fadeInUp" data-wow-delay="0.1s" style="visibility: hidden; animation-delay: 0.1s; animation-name: none;">
@@ -115,9 +111,9 @@
                             <div id="tab-1" class="tab-pane fade show p-0 active">
                                 <p>Căn hộ máy lạnh này có lối vào riêng, 1 phòng khách,
                                      2 phòng ngủ riêng biệt và 1 phòng tắm với bồn tắm cùng vòi sen.
-                                    Trong nhà bếp đầy đủ tiện nghi, du khách sẽ tìm thấy bếp nấu ăn, 
-                                    tủ lạnh, đồ dùng nhà bếp và lò vi sóng. Căn hộ có tường cách âm, 
-                                    khu vực tiếp khách, khu vực ăn uống, tủ quần áo và TV màn hình phẳng. 
+                                    Trong nhà bếp đầy đủ tiện nghi, du khách sẽ tìm thấy bếp nấu ăn,
+                                    tủ lạnh, đồ dùng nhà bếp và lò vi sóng. Căn hộ có tường cách âm,
+                                    khu vực tiếp khách, khu vực ăn uống, tủ quần áo và TV màn hình phẳng.
                                      Các đơn vị cung cấp 3 giường..
                                 </p>
                             </div>
@@ -195,11 +191,7 @@
                                     <div class="d-flex mb-4">
                                         <img src="/assets/images/team-1.jpg" class="img-fluid rounded" style="width: 45px; height: 45px;">
                                         <div class="ps-3">
-<<<<<<< HEAD
-                                            <h6>John Doe <small class="text-body fw-normal fst-italic">01 Jan 2023</small></h6>
-=======
                                             <h6>Dương <small class="text-body fw-normal fst-italic">18 Aug 2023</small></h6>
->>>>>>> 83e3f5b1acdd9c403137656c655d5cd530dd32b6
                                             <div class="mb-2">
                                                 <small class="fa fa-star text-primary"></small>
                                                 <small class="fa fa-star text-primary"></small>
@@ -207,11 +199,7 @@
                                                 <small class="fa fa-star text-primary"></small>
                                                 <small class="fa fa-star text-primary"></small>
                                             </div>
-<<<<<<< HEAD
-                                            <p class="mb-2">Phòng đầy đủ tiện nghi sạch đẹp thoáng mát gần trung tâm</p>
-=======
                                             <p class="mb-2">Sạch sẽ, giá rẻ, nhân viên phục vụ tận tình, khá gần trung tâm</p>
->>>>>>> 83e3f5b1acdd9c403137656c655d5cd530dd32b6
                                             <a href=""><i class="fa fa-reply me-2"></i> Reply</a>
                                         </div>
                                     </div>
@@ -226,13 +214,9 @@
                                                 <small class="fa fa-star text-primary"></small>
                                                 <small class="fa fa-star text-primary"></small>
                                             </div>
-<<<<<<< HEAD
-                                            <p class="mb-2">Phòng đầy đủ tiện nghi sạch đẹp thoáng mát gần trung tâm</p>
-=======
                                             <p class="mb-2">Không gian yên tĩnh, nhân viên lễ phép chu đáo,
-                                                 phòng sạch sẽ đầy đủ tiện nghi. Nước nóng luôn có và có free 2 chai nước trong phòng. 
+                                                 phòng sạch sẽ đầy đủ tiện nghi. Nước nóng luôn có và có free 2 chai nước trong phòng.
                                                  Nhân viên có hỗ trợ thêm về check in cũng như check out.</p>
->>>>>>> 83e3f5b1acdd9c403137656c655d5cd530dd32b6
                                             <a href=""><i class="fa fa-reply me-2"></i> Reply</a>
                                         </div>
                                     </div>
@@ -247,11 +231,7 @@
                                                 <small class="fa fa-star text-primary"></small>
                                                 <small class="fa fa-star text-primary"></small>
                                             </div>
-<<<<<<< HEAD
-                                            <p class="mb-2">Phòng đầy đủ tiện nghi sạch đẹp thoáng mát gần trung tâm</p>
-=======
                                             <p class="mb-2">Phòng sang trọng đẹp. Giá lại ưu dai, căn hộ trong khu vinhome rất đẹp, yên tĩnh cao cấp. Mình rất thích</p>
->>>>>>> 83e3f5b1acdd9c403137656c655d5cd530dd32b6
                                             <a href=""><i class="fa fa-reply me-2"></i> Reply</a>
                                         </div>
                                     </div>
@@ -293,15 +273,9 @@
 
                     <div class="bg-light mb-5 wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
                         <div class="border-bottom text-center text-dark p-3 pt-4 mb-3">
-<<<<<<< HEAD
-                            <span class="align-top fs-4 lh-base">VND</span>
-                            <span class="align-middle fs-1 lh-sm fw-bold">850.000</span>
-                            <span class="align-bottom fs-6 lh-lg">/ Night</span>
-=======
                             <span class="align-top fs-4 lh-base">$</span>
                             <span class="align-middle fs-1 lh-sm fw-bold">49.00</span>
                             <span class="align-bottom fs-6 lh-lg">/ Day</span>
->>>>>>> 83e3f5b1acdd9c403137656c655d5cd530dd32b6
                         </div>
                         <div class="row g-3 p-4 pt-2">
                             <div class="col-12">
@@ -371,11 +345,7 @@
                     <div class="border p-1 wow fadeInUp" data-wow-delay="0.1s" style="visibility: hidden; animation-delay: 0.1s; animation-name: none;">
                         <div class="border p-4">
                             <h4 class="section-title text-start mb-4">Help &amp; Support</h4>
-<<<<<<< HEAD
-                            <p>Nếu bạn cần hỗ trợ gì từ chúng tôi xin hãy liên hệ</p>
-=======
                             <p>Nếu có bất kì câu hỏi hay thắc mắc nào vui lòng liên hệ với chúng tôi qua Số điện thoại</p>
->>>>>>> 83e3f5b1acdd9c403137656c655d5cd530dd32b6
                             <div class="bg-primary text-center p-3">
                                 <h4 class="text-white m-0">(+84) 987 808 998</h4>
                             </div>

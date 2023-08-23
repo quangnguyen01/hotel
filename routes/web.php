@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ClientController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -29,9 +30,7 @@ Route::get('/contact', function () {
     return view('clients/contact');
 })->name('contact-page');
 
-Route::get('/room', function () {
-    return view('clients/room');
-})->name('room-page');
+Route::get('/rooms', [ClientController::class, 'roomList'])->name('room-page');
 
 Route::get('/service', function () {
     return view('clients/service');
