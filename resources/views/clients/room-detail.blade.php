@@ -1,9 +1,9 @@
 @extends('clients.pages')
 @section('title-page')
-    Room Detail
+    Chi tiết căn hộ
 @endsection
 @section('title-link')
-    Room Detail
+    Chi tiết
 @endsection
 @section('page-content')
     <div class="container-xxl py-5">
@@ -13,30 +13,18 @@
                 <div class="col-lg-8">
                     <div id="room-carousel" class="carousel slide mb-5 wow fadeIn" data-bs-ride="carousel" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
                         <div class="carousel-inner">
-                            <div class="carousel-item">
-                                <img class="w-100" src="/assets/images/1.1.jpg" alt="Image">
-                            </div>
-                            <div class="carousel-item active">
-                                <img class="w-100" src="/assets/images/1.2.jpg" alt="Image">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="w-100" src="/assets/images/1.3.jpg" alt="Image">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="w-100" src="/assets/images/1.4.jpg" alt="Image">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="w-100" src="/assets/images/1.6.jpg" alt="Image">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="w-100" src="/assets/images/1.7.jpg" alt="Image">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="w-100" src="/assets/images/1.8.jpg" alt="Image">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="w-100" src="/assets/images/1.9.jpg" alt="Image">
-                            </div>
+                            @if($room)
+                                    <?php
+                                    $images = explode(',', $room->images);
+                                    ?>
+                                @foreach($images as $item)
+                                    @if($item)
+                                        <div class="carousel-item @if($images[0] == $item) active @endif">
+                                            <img class="w-100" src="{{$item}}" alt="Image" style="height: 500px;object-fit: cover">
+                                        </div>
+                                    @endif
+                                @endforeach
+                            @endif
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#room-carousel" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -49,7 +37,7 @@
 
                     </div>
                     <div class="d-flex align-items-center mb-4">
-                        <h1 class="mb-0">Phòng Standard</h1>
+                        <h1 class="mb-0">{{$room->name}}</h1>
                         <div class="ps-3">
                             <small class="fa fa-star text-primary"></small>
                             <small class="fa fa-star text-primary"></small>
@@ -85,25 +73,25 @@
                             <li class="nav-item">
                                 <a class="d-flex align-items-center py-3 active" data-bs-toggle="pill" href="#tab-1">
                                     <i class="fa fa-eye text-primary me-2"></i>
-                                    <h6 class="mb-0">Overview</h6>
+                                    <h6 class="mb-0">Tổng quan</h6>
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a class="d-flex align-items-center py-3" data-bs-toggle="pill" href="#tab-2">
                                     <i class="fa fa-dollar text-primary me-2"></i>
-                                    <h6 class="mb-0">Price</h6>
+                                    <h6 class="mb-0">Giá</h6>
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a class="d-flex align-items-center py-3" data-bs-toggle="pill" href="#tab-3">
                                     <i class="fa fa-map-marker-alt text-primary me-2"></i>
-                                    <h6 class="mb-0">Location</h6>
+                                    <h6 class="mb-0">Địa chỉ</h6>
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a class="d-flex align-items-center py-3" data-bs-toggle="pill" href="#tab-4">
                                     <i class="fa fa-star text-primary me-2"></i>
-                                    <h6 class="mb-0">Reviews(3)</h6>
+                                    <h6 class="mb-0">Đánh giá (3)</h6>
                                 </a>
                             </li>
                         </ul>
@@ -187,7 +175,7 @@
                             </div>
                             <div id="tab-4" class="tab-pane fade show p-0">
                                 <div class="mb-4">
-                                    <h4 class="mb-4">3 Reviews</h4>
+                                    <h4 class="mb-4">3 Đánh giá</h4>
                                     <div class="d-flex mb-4">
                                         <img src="/assets/images/team-1.jpg" class="img-fluid rounded" style="width: 45px; height: 45px;">
                                         <div class="ps-3">
@@ -273,9 +261,9 @@
 
                     <div class="bg-light mb-5 wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
                         <div class="border-bottom text-center text-dark p-3 pt-4 mb-3">
-                            <span class="align-top fs-4 lh-base">$</span>
-                            <span class="align-middle fs-1 lh-sm fw-bold">49.00</span>
-                            <span class="align-bottom fs-6 lh-lg">/ Day</span>
+                            <span class="align-top fs-4 lh-base">đ</span>
+                            <span class="align-middle fs-1 lh-sm fw-bold">{{number_format($room->price, 0, ',', '.')}}</span>
+                            <span class="align-bottom fs-6 lh-lg">/ Ngày</span>
                         </div>
                         <div class="row g-3 p-4 pt-2">
                             <div class="col-12">
@@ -313,38 +301,13 @@
                                 </select>
                             </div>
                             <div class="col-12">
-                                <button class="btn btn-primary py-3 w-100">Book Now</button>
+                                <button class="btn btn-primary py-3 w-100">Đặt ngay</button>
                             </div>
                         </div>
                     </div>
-
-
-                    <div class="bg-light p-4 mb-5 wow fadeInUp" data-wow-delay="0.1s" style="visibility: hidden; animation-delay: 0.1s; animation-name: none;">
-                        <h4 class="section-title text-start mb-4">Category</h4>
-                        <a class="d-block position-relative mb-3" href="">
-                            <img class="img-fluid" src="/assets/images/room-1.jpg" alt="">
-                            <div class="d-flex position-absolute top-0 start-0 w-100 h-100 p-3" style="background: rgba(0,0,0,.3);">
-                                <h5 class="text-white m-0 mt-auto">luxury Room</h5>
-                            </div>
-                        </a>
-                        <a class="d-block position-relative mb-3" href="">
-                            <img class="img-fluid" src="/assets/images/room-2.jpg" alt="">
-                            <div class="d-flex position-absolute top-0 start-0 w-100 h-100 p-3" style="background: rgba(0,0,0,.3);">
-                                <h5 class="text-white m-0 mt-auto">Couple Room</h5>
-                            </div>
-                        </a>
-                        <a class="d-block position-relative" href="">
-                            <img class="img-fluid" src="/assets/images/room-3.jpg" alt="">
-                            <div class="d-flex position-absolute top-0 start-0 w-100 h-100 p-3" style="background: rgba(0,0,0,.3);">
-                                <h5 class="text-white m-0 mt-auto">Single Room</h5>
-                            </div>
-                        </a>
-                    </div>
-
-
                     <div class="border p-1 wow fadeInUp" data-wow-delay="0.1s" style="visibility: hidden; animation-delay: 0.1s; animation-name: none;">
                         <div class="border p-4">
-                            <h4 class="section-title text-start mb-4">Help &amp; Support</h4>
+                            <h4 class="section-title text-start mb-4">Hỗ trợ</h4>
                             <p>Nếu có bất kì câu hỏi hay thắc mắc nào vui lòng liên hệ với chúng tôi qua Số điện thoại</p>
                             <div class="bg-primary text-center p-3">
                                 <h4 class="text-white m-0">(+84) 987 808 998</h4>
@@ -354,6 +317,45 @@
 
                 </div>
 
+            </div>
+            <div class="row mt-4">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="section-title text-center text-primary text-uppercase">Có thể bạn quan tâm</h6>
+                </div>
+                <div class="row g-4">
+                    @foreach($rooms as $room)
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="room-item shadow rounded overflow-hidden">
+                                <div class="position-relative text-center">
+                                    <img class="img-fluid" src="{{explode(',', $room->images)[0]}}" alt="" style="object-fit: cover; height: 200px; width: 100%;">
+                                    <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">{{number_format($room->price, 0, ',', '.')}} đ/Ngày</small>
+                                </div>
+                                <div class="p-4 mt-2">
+                                    <div class="d-flex justify-content-between mb-3">
+                                        <h5 class="mb-0">{{$room->name}}</h5>
+                                        <div class="ps-2">
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                            <small class="fa fa-star text-primary"></small>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex mb-3">
+                                        <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>2 Bed</small>
+                                        <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                                        <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
+                                    </div>
+                                    <p class="text-body mb-3">Căn hộ có máy lạnh và có lối vào riêng, 1 phòng khách, 2 phòng ngủ riêng biệt và 2 phòng tắm với bồn tắm cùng vòi sen </p>
+                                    <div class="d-flex justify-content-between">
+                                        <a class="btn btn-sm btn-primary rounded py-2 px-4" href="{{@route('room-detail', $room->id)}}">Xem Phòng</a>
+                                        <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Đặt phòng ngay</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    @endforeach
+                </div>
             </div>
         </div>
     </div>

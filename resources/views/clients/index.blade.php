@@ -1,28 +1,54 @@
 @extends('clients.master')
+@section('custom_css')
+    <style>
+        .category-item {
+            position: relative;
+            text-align: center;
+            color: #0b1120;
+        }
+        .category-item img {
+            border-radius: 10px;
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            opacity: 1;
 
+        }
+        .category-item img:hover {
+            opacity: 0.7;
+        }
+
+        .bottom-right {
+            position: absolute;
+            bottom: 10px;
+            left: 20px;
+        }
+
+    </style>
+@endsection
 @section('cover')
     <div class="container-fluid p-0 mb-5">
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="/assets/images/LOGO1.jpg" alt="Image" style="height: 500px;">
+                    <img class="w-100" src="/assets/images/LOGO1.jpg" alt="Image" style="height: 500px;object-fit: cover">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 700px;">
                             <h6 class="section-title text-white text-uppercase mb-3 animated slideInDown">Luxury Living</h6>
                             <h1 class="display-3 text-white mb-4 animated slideInDown">Luxury Apartment</h1>
-                            <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Our Rooms</a>
-                            <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Book A Room</a>
+                            <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Phòng của chúng tôi</a>
+                            <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Đặt phòng</a>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="/assets/images/logo2.jpg" alt="Image">
+                    <img class="w-100" src="/assets/images/logo2.jpg" alt="Image" style="height: 500px;object-fit: cover">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 700px;">
                             <h6 class="section-title text-white text-uppercase mb-3 animated slideInDown">Luxury Living</h6>
                             <h1 class="display-3 text-white mb-4 animated slideInDown">Luxury Apartment</h1>
-                            <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Our Rooms</a>
-                            <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Book A Room</a>
+                            <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Phòng của chúng tôi</a>
+                            <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Đặt phòng</a>
                         </div>
                     </div>
                 </div>
@@ -47,8 +73,8 @@
         <div class="container">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6">
-                    <h6 class="section-title text-start text-primary text-uppercase">About Us</h6>
-                    <h1 class="mb-4">Welcome to <span class="text-primary text-uppercase">Merry House</span></h1>
+                    <h6 class="section-title text-start text-primary text-uppercase">Về chúng tôi</h6>
+                    <h1 class="mb-4">Chào mừng tới <span class="text-primary text-uppercase">Merry House</span></h1>
                     <p class="mb-4">Nằm trong quần thể Vinhomes Imperia,
                          MerryHouse là khu căn hộ cao cấp với đầy đủ công năng và dịch vụ.
                          Chúng tôi không chỉ cung cấp các loại căn hộ mà còn cung cấp dịch vụ cao cấp đi kèm.
@@ -106,49 +132,20 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title text-center text-primary text-uppercase">Our Rooms</h6>
-                <h1 class="mb-5">Explore Our <span class="text-primary text-uppercase">Rooms</span></h1>
+                <h6 class="section-title text-center text-primary text-uppercase">Căn hộ nổi bật</h6>
+                <h1 class="mb-5">Khám phá <span class="text-primary text-uppercase">Căn Hộ</span></h1>
             </div>
             <div class="row g-4">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="room-item shadow rounded overflow-hidden">
-                        <div class="position-relative">
-                            <img class="img-fluid" src="/assets/images/room-1.jpg" alt="">
-                            <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">550.000VND/Day</small>
-                        </div>
-                        <div class="p-4 mt-2">
-                            <div class="d-flex justify-content-between mb-3">
-                                <h5 class="mb-0">Phòng Standard</h5>
-                                <div class="ps-2">
-                                    <small class="fa fa-star text-primary"></small>
-                                    <small class="fa fa-star text-primary"></small>
-                                    <small class="fa fa-star text-primary"></small>
-                                    <small class="fa fa-star text-primary"></small>
-                                    <small class="fa fa-star text-primary"></small>
-                                </div>
-                            </div>
-                            <div class="d-flex mb-3">
-                                <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>2 Bed</small>
-                                <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>1 Bath</small>
-                                <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
-                            </div>
-                            <p class="text-body mb-3">Căn hộ có máy lạnh và có lối vào riêng, 1 phòng khách, 2 phòng ngủ riêng biệt và 1 phòng tắm với bồn tắm cùng vòi sen.</p>
-                            <div class="d-flex justify-content-between">
-                                <a class="btn btn-sm btn-primary rounded py-2 px-4" href="{{@route('room-detail')}}">Xem Phòng</a>
-                                <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                @foreach($rooms as $room)
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="room-item shadow rounded overflow-hidden">
                         <div class="position-relative">
-                            <img class="img-fluid" src="/assets/images/room-2.jpg" alt="">
-                            <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">600.000VND/Day</small>
+                            <img class="img-fluid" src="{{explode(',', $room->images)[0]}}" alt="" style="object-fit: cover; height: 200px; width: 100%;">
+                            <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">{{number_format($room->price, 0, ',', '.')}} đ/Ngày</small>
                         </div>
                         <div class="p-4 mt-2">
                             <div class="d-flex justify-content-between mb-3">
-                                <h5 class="mb-0">Phòng Suite</h5>
+                                <h5 class="mb-0">{{$room->name}}</h5>
                                 <div class="ps-2">
                                     <small class="fa fa-star text-primary"></small>
                                     <small class="fa fa-star text-primary"></small>
@@ -164,104 +161,49 @@
                             </div>
                             <p class="text-body mb-3">Căn hộ có máy lạnh và có lối vào riêng, 1 phòng khách, 2 phòng ngủ riêng biệt và 2 phòng tắm với bồn tắm cùng vòi sen </p>
                             <div class="d-flex justify-content-between">
-                                <a class="btn btn-sm btn-primary rounded py-2 px-4" href="{{@route('room-detail')}}">Xem Phòng</a>
-                                <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
+                                <a class="btn btn-sm btn-primary rounded py-2 px-4" href="{{@route('room-detail', $room->id)}}">Chi tiết</a>
+                                <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Đặt ngay</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-                    <div class="room-item shadow rounded overflow-hidden">
-                        <div class="position-relative">
-                            <img class="img-fluid" src="/assets/images/room-3.jpg" alt="">
-                            <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">700.000VND/Dayt</small>
-                        </div>
-                        <div class="p-4 mt-2">
-                            <div class="d-flex justify-content-between mb-3">
-                                <h5 class="mb-0">Phòng Deluxe</h5>
-                                <div class="ps-2">
-                                    <small class="fa fa-star text-primary"></small>
-                                    <small class="fa fa-star text-primary"></small>
-                                    <small class="fa fa-star text-primary"></small>
-                                    <small class="fa fa-star text-primary"></small>
-                                    <small class="fa fa-star text-primary"></small>
-                                </div>
-                            </div>
-                            <div class="d-flex mb-3">
-                                <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>2 Bed</small>
-                                <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
-                                <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
-                            </div>
-                            <p class="text-body mb-3">Căn hộ có máy lạnh và có lối vào riêng, 1 phòng khách, 2 phòng ngủ riêng biệt và 2 phòng tắm với bồn tắm cùng vòi sen.</p>
-                            <div class="d-flex justify-content-between">
-                                <a class="btn btn-sm btn-primary rounded py-2 px-4" href="{{@route('room-detail')}}">Xem Phòng</a>
-                                <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                @endforeach
             </div>
         </div>
     </div>
     <!-- Room End -->
 
 
-    <!-- Video Start -->
+    <!-- Category Start -->
     <div class="container-xxl py-5 px-0 wow zoomIn" data-wow-delay="0.1s">
         <div class="row g-0">
             <div class="col-md-12 bg-dark">
                 <div class="p-5">
-                    <h6 class="section-title text-start text-white text-uppercase mb-3">Category</h6>
+                    <h6 class="section-title text-start text-white text-uppercase mb-3">Loại phòng</h6>
                     <div class="row">
-                        <div class="col-md-4">
-                            <img class="img-fluid" src="/assets/images/room-1.jpg" alt="">
-                            <div class="w-100 p-3" style="background: rgba(0,0,0,.3);">
-                                <h5 class="text-white m-0 mt-auto">luxury Room</h5>
+                        @foreach(\App\Models\Category::all() as $category)
+                        <div class="col-4 category-item btn_category" style="cursor: pointer">
+                            <a href="{{route('room-page', ['category' => $category->id])}}">
+                            <div>
+                                <img class="img-fluid" src="{{$category->image}}" alt="">
+                                <div class="bottom-right">
+                                    <h5 class="text-white m-0 mt-auto">{{$category->name}}</h5>
+                                </div>
                             </div>
+                            </a>
                         </div>
-                        <div class="col-md-4">
-                            <img class="img-fluid" src="/assets/images/room-1.jpg" alt="">
-                            <div class="w-100 p-3" style="background: rgba(0,0,0,.3);">
-                                <h5 class="text-white m-0 mt-auto">luxury Room</h5>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <img class="img-fluid" src="/assets/images/room-1.jpg" alt="">
-                            <div class="w-100 p-3" style="background: rgba(0,0,0,.3);">
-                                <h5 class="text-white m-0 mt-auto">luxury Room</h5>
-                            </div>
-                        </div>
+                        @endforeach
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content rounded-0">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Youtube Video</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <!-- 16:9 aspect ratio -->
-                    <div class="ratio ratio-16x9">
-                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
-                                allow="autoplay"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
     <!-- Service Start -->
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title text-center text-primary text-uppercase">Our Services</h6>
-                <h1 class="mb-5">Explore Our <span class="text-primary text-uppercase">Services</span></h1>
+                <h6 class="section-title text-center text-primary text-uppercase">Dịch vụ</h6>
+                <h1 class="mb-5">Khám phá <span class="text-primary text-uppercase">Dịch vụ</span></h1>
             </div>
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">

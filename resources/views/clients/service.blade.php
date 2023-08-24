@@ -1,17 +1,17 @@
 @extends('clients.pages')
 @section('title-page')
-    Services
+    Dịch vụ của chúng tôi
 @endsection
 @section('title-link')
-    Services
+    Dịch vụ
 @endsection
 @section('page-content')
     <!-- Service Start -->
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title text-center text-primary text-uppercase">Our Services</h6>
-                <h1 class="mb-5">Explore Our <span class="text-primary text-uppercase">Services</span></h1>
+                <h6 class="section-title text-center text-primary text-uppercase">Dịch vụ</h6>
+                <h1 class="mb-5">Khám phá <span class="text-primary text-uppercase">Dịch vụ</span></h1>
             </div>
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
