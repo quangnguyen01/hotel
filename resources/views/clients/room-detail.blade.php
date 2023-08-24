@@ -18,7 +18,7 @@
                                     $images = explode(',', $room->images);
                                     ?>
                                 @foreach($images as $item)
-                                    @if($item)
+                                    @if($item != end($images))
                                         <div class="carousel-item @if($images[0] == $item) active @endif">
                                             <img class="w-100" src="{{$item}}" alt="Image" style="height: 500px;object-fit: cover">
                                         </div>
