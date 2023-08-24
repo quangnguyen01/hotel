@@ -4,28 +4,37 @@
         .category-item {
             position: relative;
             text-align: center;
-            color: white;
+            color: #0b1120;
         }
-        .bottom-right {
+        .category-item img {
+            border-radius: 10px;
             width: 100%;
             height: 100px;
-            position: absolute;
-            bottom: 0;
-            background: rgba(0,0,0,.3);
+            object-fit: cover;
+            opacity: 0.7;
+
         }
-        .bottom-right h5 {
+        .category-item img:hover {
+            opacity: 0.5;
+            border: 3px solid #aa3331;
+        }
+        .active-cate {
+            opacity: 0.5;
+            border: 3px solid #aa3331;
+        }
+        .bottom-right {
             position: absolute;
-            left: 10px;
             bottom: 10px;
+            left: 20px;
         }
 
     </style>
 @endsection
 @section('title-page')
-    Rooms
+    Căn hộ
 @endsection
 @section('title-link')
-    Rooms
+    Căn hộ
 @endsection
 @section('page-content')
     <!-- Room Start -->
@@ -36,12 +45,12 @@
             </form>
 
             <div class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title text-center text-primary text-uppercase">Danh mục</h6>
+                <h6 class="section-title text-center text-primary text-uppercase">Loại phòng</h6>
                 <div class="row">
                     @foreach(\App\Models\Category::all() as $category)
-                        <div class="col-4 category-item" slot="{{$category->id}}">
+                        <div class="col-4 category-item btn_category" slot="{{$category->id}}" style="cursor: pointer">
                                 <div>
-                                    <img class="img-fluid" src="{{$category->image}}" alt="" style="width: 100%; height: 100px;object-fit: cover">
+                                    <img class="img-fluid @if(request()->get('category') == $category->id) active-cate @endif " src="{{$category->image}}" alt="">
                                     <div class="bottom-right">
                                         <h5 class="text-white m-0 mt-auto">{{$category->name}}</h5>
                                     </div>
@@ -54,14 +63,14 @@
 
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                 <h6 class="section-title text-center text-primary text-uppercase">Phòng của chúng tôi</h6>
-                <h1 class="mb-5">Khám phá <span class="text-primary text-uppercase">Phòng</span> của chúng tôi</h1>
+                <h1 class="mb-5">Khám phá <span class="text-primary text-uppercase">Căn hộ</span> của chúng tôi</h1>
             </div>
             <div class="row g-4">
                 @foreach($rooms as $room)
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="room-item shadow rounded overflow-hidden">
                         <div class="position-relative text-center">
-                            <img class="img-fluid" src="{{explode(',', $room->images)[0]}}" alt="" style="object-fit: cover; height: 200px; width: 100%">
+                            <img class="img-fluid" src="{{explode(',', $room->images)[0]}}" alt="" style="object-fit: cover; height: 200px; width: 100%;">
                             <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">{{number_format($room->price, 0, ',', '.')}} đ/Ngày</small>
                         </div>
                         <div class="p-4 mt-2">
@@ -82,8 +91,8 @@
                             </div>
                             <p class="text-body mb-3">Căn hộ có máy lạnh và có lối vào riêng, 1 phòng khách, 2 phòng ngủ riêng biệt và 2 phòng tắm với bồn tắm cùng vòi sen </p>
                             <div class="d-flex justify-content-between">
-                                <a class="btn btn-sm btn-primary rounded py-2 px-4" href="{{@route('room-detail')}}">Xem Phòng</a>
-                                <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
+                                <a class="btn btn-sm btn-primary rounded py-2 px-4" href="{{@route('room-detail', $room->id)}}">Xem Phòng</a>
+                                <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Đặt phòng ngay</a>
                             </div>
                         </div>
                     </div>

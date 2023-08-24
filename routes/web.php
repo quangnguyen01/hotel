@@ -14,37 +14,22 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('clients/index');
-})->name('home-page');
+Route::get('/', [ClientController::class, 'home'])->name('home-page');
+Route::get('/rooms', [ClientController::class, 'roomList'])->name('room-page');
+Route::get('/room-detail/{id}', [ClientController::class, 'detail'])->name('room-detail');
 
 Route::get('/about', function () {
     return view('clients/about');
 })->name('about-page');
 
-Route::get('/booking', function () {
-    return view('clients/booking');
-})->name('booking-page');
-
 Route::get('/contact', function () {
     return view('clients/contact');
 })->name('contact-page');
-
-Route::get('/rooms', [ClientController::class, 'roomList'])->name('room-page');
 
 Route::get('/service', function () {
     return view('clients/service');
 })->name('service-page');
 
-Route::get('/team', function () {
-    return view('clients/team');
-})->name('team-page');
 
-Route::get('/testimonial', function () {
-    return view('clients/testimonial');
-})->name('testimonial-page');
 
-Route::get('/room-detail', function() {
-   return view('clients/room-detail');
-})->name('room-detail');
 
