@@ -1,4 +1,4 @@
-<div class="container-fluid bg-white px-0">
+<div class="container-fluid bg-white px-0" style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;">
     <div class="row gx-0">
         <div class="col-lg-3 bg-white d-none d-lg-block">
             <a href="index.html" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
@@ -44,7 +44,12 @@
                         <a href="{{@route('room-page')}}" class="nav-item nav-link {{@url()->current() === @route('room-page') ? 'active' : ''}}">Tin tức</a>
                         <a href="{{route('contact-page')}}" class="nav-item nav-link {{@url()->current() === @route('contact-page') ? 'active' : ''}}">Liên hệ</a>
                     </div>
-{{--                    <a href="https://htmlcodex.com/hotel-html-template-pro" class="btn btn-primary rounded-0 py-4 px-md-5 d-none d-lg-block">Premium Version<i class="fa fa-arrow-right ms-3"></i></a>--}}
+                    @if(\Illuminate\Support\Facades\Auth::user())
+                        <a href="{{route('logout')}}">Đăng xuất</a>
+                        <a href="#" class="btn btn-primary rounded-0 py-4 px-md-5 d-none d-lg-block">Xin chào, {{\Illuminate\Support\Facades\Auth::user()->name}}</a>
+                    @else
+                        <a href="{{route('login')}}" class="btn btn-primary rounded-0 py-4 px-md-5 d-none d-lg-block">Đăng ký / Đăng nhập</a>
+                    @endif
                 </div>
             </nav>
         </div>

@@ -1,5 +1,6 @@
 <?php
 
+use App\Enums\RoomStatus;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
@@ -17,7 +18,9 @@ return new class extends Migration
             $table->string('name');
             $table->text('images');
             $table->text('description');
+            $table->text('content')->nullable();
             $table->double('price');
+            $table->unsignedInteger('status')->default(RoomStatus::INACTIVE);
             $table->timestamps();
             $table->softDeletes();
         });

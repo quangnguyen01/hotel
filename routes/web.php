@@ -1,6 +1,9 @@
 <?php
 
+use App\Http\Controllers\BookingController;
 use App\Http\Controllers\ClientController;
+use App\Http\Controllers\EntryController;
+use App\Http\Middleware\CheckAdmin;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,9 +17,22 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+Route::prefix('admin')->middleware(['auth', CheckAdmin::class])->group(function (){
+    require_once __DIR__ . '/admin.php';
+});
+
+Route::get('/login', [EntryController::class, 'loginForm'])->name('login');
+Route::post('/login', [EntryController::class, 'login'])->name('loginPost');
+Route::post('/register', [EntryController::class, 'register'])->name('register');
+Route::get('/logout', [EntryController::class, 'logout'])->name('logout');
+
 Route::get('/', [ClientController::class, 'home'])->name('home-page');
 Route::get('/rooms', [ClientController::class, 'roomList'])->name('room-page');
 Route::get('/room-detail/{id}', [ClientController::class, 'detail'])->name('room-detail');
+
+Route::post('/booking', [BookingController::class, 'store'])->name('booking');
+Route::get('/success', function () { return view('clients/success'); })->name('success');
 
 Route::get('/about', function () {
     return view('clients/about');
