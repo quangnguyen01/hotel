@@ -36,8 +36,8 @@
                         <div class="p-3" style="max-width: 700px;">
                             <h6 class="section-title text-white text-uppercase mb-3 animated slideInDown">Luxury Living</h6>
                             <h1 class="display-3 text-white mb-4 animated slideInDown">Luxury Apartment</h1>
-                            <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Phòng của chúng tôi</a>
-                            <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Đặt phòng</a>
+                            <a href="{{@route('room-page')}}" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Phòng của chúng tôi</a>
+                            <a href="{{@route('room-page')}}" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Đặt phòng</a>
                         </div>
                     </div>
                 </div>
@@ -47,8 +47,8 @@
                         <div class="p-3" style="max-width: 700px;">
                             <h6 class="section-title text-white text-uppercase mb-3 animated slideInDown">Luxury Living</h6>
                             <h1 class="display-3 text-white mb-4 animated slideInDown">Luxury Apartment</h1>
-                            <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Phòng của chúng tôi</a>
-                            <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Đặt phòng</a>
+                            <a href="{{@route('room-page')}}" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Phòng của chúng tôi</a>
+                            <a href="{{@route('room-page')}}" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Đặt phòng</a>
                         </div>
                     </div>
                 </div>
@@ -162,7 +162,7 @@
                             <p class="text-body mb-3">Căn hộ có máy lạnh và có lối vào riêng, 1 phòng khách, 2 phòng ngủ riêng biệt và 2 phòng tắm với bồn tắm cùng vòi sen </p>
                             <div class="d-flex justify-content-between">
                                 <a class="btn btn-sm btn-primary rounded py-2 px-4" href="{{@route('room-detail', $room->id)}}">Chi tiết</a>
-                                <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Đặt ngay</a>
+                                <a class="btn btn-sm btn-dark rounded py-2 px-4" href="{{@route('room-detail', $room->id)}}">Đặt ngay</a>
                             </div>
                         </div>
                     </div>
