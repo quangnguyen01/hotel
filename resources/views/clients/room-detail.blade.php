@@ -311,10 +311,10 @@
                                 </div>
                                 <div class="col-12">
                                     <select class="form-select" name="adult">
-                                        <option selected hidden>Adult</option>
-                                        <option value="1">Adult 1</option>
-                                        <option value="2">Adult 2</option>
-                                        <option value="3">Adult 3</option>
+                                        <option selected hidden>Người lớn</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
                                     </select>
                                     @error('adult')
                                     <div style="color: red">* {{$message}}</div>
@@ -322,10 +322,10 @@
                                 </div>
                                 <div class="col-12">
                                     <select class="form-select" name="child">
-                                        <option selected hidden>Child</option>
-                                        <option value="1">Child 1</option>
-                                        <option value="2">Child 2</option>
-                                        <option value="3">Child 3</option>
+                                        <option selected hidden>Trẻ em</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
                                     </select>
                                     @error('child')
                                     <div style="color: red">* {{$message}}</div>
