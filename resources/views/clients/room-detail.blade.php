@@ -55,19 +55,9 @@
                         <small class="bg-light rounded py-1 px-3 m-1"><i class="fa fa-user-cog text-primary me-2"></i>Laundry</small>
                         <small class="bg-light rounded py-1 px-3 m-1"><i class="fa fa-utensils text-primary me-2"></i>Dinner</small>
                     </div>
-                    <p>
-                    Tọa lạc tại thành phố Hải Phòng, Merry House Imperia có WiFi miễn phí, khu vườn, sảnh khách chung và quầy bar.
-                    Chỗ nghỉ được bố trí máy điều hòa,
-                    bếp ăn đầy đủ tiện nghi với khu vực ăn uống,
-                    TV màn hình phẳng cũng như phòng tắm riêng đi kèm vòi xịt/chậu rửa vệ sinh,
-                    đồ vệ sinh cá nhân miễn phí và máy sấy tóc. Các căn còn được trang bị tủ lạnh, l
-                    ò vi sóng, bếp nấu ăn và ấm đun nước.
-                    </p>
-                    <p class="mb-5">Khách sạn căn hộ này cũng có sân chơi cho trẻ em.
-                                    Merry House Imperia nằm cách Nhà Hát Lớn Hải Phòng 3km và trung tâm thương mại Vincom Plaza Hải Phòng 3,5 km.
-                                    Sân bay gần nhất là sân bay quốc tế Cát Bi, cách đó 10 km,
-                                    và chỗ nghỉ cung cấp dịch vụ đưa đón sân bay với một khoản phụ phí.
-                    </p>
+                    <div>
+                    {!! html_entity_decode($room->description) !!}
+                    </div>
                     <div class="tab-class wow fadeInUp" data-wow-delay="0.1s" style="visibility: hidden; animation-delay: 0.1s; animation-name: none;">
                         <ul class="nav nav-pills d-flex justify-content-between border-bottom mb-4">
                             <li class="nav-item">
@@ -278,26 +268,35 @@
                             </div>
                             <div class="col-12">
                                 <select class="form-select">
-                                    <option selected="">Adult</option>
-                                    <option value="1">Adult 1</option>
-                                    <option value="2">Adult 2</option>
-                                    <option value="3">Adult 3</option>
+                                    <option selected="">Người lớn</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
                                 </select>
                             </div>
                             <div class="col-12">
                                 <select class="form-select">
-                                    <option selected="">Child</option>
-                                    <option value="1">Child 1</option>
-                                    <option value="2">Child 2</option>
-                                    <option value="3">Child 3</option>
+                                    <option selected="">Trẻ em</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
                                 </select>
                             </div>
                             <div class="col-12">
                                 <select class="form-select">
-                                    <option selected="">Night</option>
-                                    <option value="1">Night 1</option>
-                                    <option value="2">Night 2</option>
-                                    <option value="3">Night 3</option>
+                                    <option selected="">Số đêm</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
                                 </select>
                             </div>
                             <div class="col-12">

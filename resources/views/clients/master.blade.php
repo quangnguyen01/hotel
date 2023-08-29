@@ -44,24 +44,28 @@
                             </div>
                             <div class="col-md-3">
                                 <select class="form-select">
-                                    <option selected>Adult</option>
-                                    <option value="1">Adult 1</option>
-                                    <option value="2">Adult 2</option>
-                                    <option value="3">Adult 3</option>
+                                    <option selected="">Người lớn</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
                                 </select>
                             </div>
                             <div class="col-md-3">
-                                <select class="form-select">
-                                    <option selected>Child</option>
-                                    <option value="1">Child 1</option>
-                                    <option value="2">Child 2</option>
-                                    <option value="3">Child 3</option>
+                            <select class="form-select">
+                                    <option selected="">Trẻ em</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
                                 </select>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-2">
-                        <button class="btn btn-primary w-100">Submit</button>
+                        <button class="btn btn-primary w-100">Gửi</button>
                     </div>
                 </div>
             </div>
