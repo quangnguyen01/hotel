@@ -265,45 +265,66 @@
                             <span class="align-middle fs-1 lh-sm fw-bold">{{number_format($room->price, 0, ',', '.')}}</span>
                             <span class="align-bottom fs-6 lh-lg">/ Ngày</span>
                         </div>
+                        <form action="{{route('booking')}}" method="post">
+                            @csrf
                         <div class="row g-3 p-4 pt-2">
-                            <div class="col-12">
-                                <div class="date" id="date3" data-target-input="nearest">
-                                    <input type="text" class="form-control datetimepicker-input" placeholder="Check in" data-target="#date3" data-toggle="datetimepicker">
+
+                                <div class="col-12">
+                                    <input type="text" class="form-control" name="name" placeholder="Name">
+                                </div>
+                                <div class="col-12">
+                                    <input type="email" class="form-control" name="email" placeholder="Email">
+                                </div>
+                                <div class="col-12">
+                                    <input type="text" class="form-control" name="phone" placeholder="Phone">
+                                </div>
+                                <div class="col-8">
+                                    <div class="date">
+                                        <input type="date" name="check_in_date" class="form-control" placeholder="Check in" min="{{\Carbon\Carbon::now()->toDateString()}}">
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="date">
+                                        <input type="time" name="check_in_time" class="form-control" placeholder="Check in time">
+                                    </div>
+                                </div>
+                                <div class="col-8">
+                                    <div class="date">
+                                        <input type="date" name="check_out_date" class="form-control" placeholder="Check out" min="{{\Carbon\Carbon::now()->toDateString()}}">
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="date">
+                                        <input type="time" name="check_out_time" class="form-control" placeholder="Check out time">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <select class="form-select" name="adult">
+                                        <option selected hidden>Adult</option>
+                                        <option value="1">Adult 1</option>
+                                        <option value="2">Adult 2</option>
+                                        <option value="3">Adult 3</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <select class="form-select" name="child">
+                                        <option selected hidden>Child</option>
+                                        <option value="1">Child 1</option>
+                                        <option value="2">Child 2</option>
+                                        <option value="3">Child 3</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control" name="special_request" placeholder="Special Request"></textarea>
+                                </div>
+                                <input type="hidden" name="price" value="{{$room->price}}">
+                                <input type="hidden" name="room_id" value="{{$room->id}}">
+                                <input type="hidden" name="route" value="success">
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary py-3 w-100">Đặt ngay</button>
                                 </div>
                             </div>
-                            <div class="col-12">
-                                <div class="date" id="date4" data-target-input="nearest">
-                                    <input type="text" class="form-control datetimepicker-input" placeholder="Check out" data-target="#date4" data-toggle="datetimepicker">
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <select class="form-select">
-                                    <option selected="">Adult</option>
-                                    <option value="1">Adult 1</option>
-                                    <option value="2">Adult 2</option>
-                                    <option value="3">Adult 3</option>
-                                </select>
-                            </div>
-                            <div class="col-12">
-                                <select class="form-select">
-                                    <option selected="">Child</option>
-                                    <option value="1">Child 1</option>
-                                    <option value="2">Child 2</option>
-                                    <option value="3">Child 3</option>
-                                </select>
-                            </div>
-                            <div class="col-12">
-                                <select class="form-select">
-                                    <option selected="">Night</option>
-                                    <option value="1">Night 1</option>
-                                    <option value="2">Night 2</option>
-                                    <option value="3">Night 3</option>
-                                </select>
-                            </div>
-                            <div class="col-12">
-                                <button class="btn btn-primary py-3 w-100">Đặt ngay</button>
-                            </div>
-                        </div>
+                        </form>
                     </div>
                     <div class="border p-1 wow fadeInUp" data-wow-delay="0.1s" style="visibility: hidden; animation-delay: 0.1s; animation-name: none;">
                         <div class="border p-4">
@@ -349,7 +370,7 @@
                                     <p class="text-body mb-3">Căn hộ có máy lạnh và có lối vào riêng, 1 phòng khách, 2 phòng ngủ riêng biệt và 2 phòng tắm với bồn tắm cùng vòi sen </p>
                                     <div class="d-flex justify-content-between">
                                         <a class="btn btn-sm btn-primary rounded py-2 px-4" href="{{@route('room-detail', $room->id)}}">Xem Phòng</a>
-                                        <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Đặt phòng ngay</a>
+                                        <a class="btn btn-sm btn-dark rounded py-2 px-4" href="{{@route('room-detail', $room->id)}}">Đặt phòng ngay</a>
                                     </div>
                                 </div>
                             </div>

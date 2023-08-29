@@ -1,4 +1,4 @@
-<div class="container-fluid bg-white px-0">
+<div class="container-fluid bg-white px-0" style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;">
     <div class="row gx-0">
         <div class="col-lg-3 bg-white d-none d-lg-block">
             <a href="index.html" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
