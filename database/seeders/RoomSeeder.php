@@ -28,7 +28,204 @@ class RoomSeeder extends Seeder
                 https://res.cloudinary.com/dn3bmj5ex/image/upload/v1692781672/z4366478716690_921140dc427497b62fd2f9b2acfa31c5_inldnh.jpg,
                 https://res.cloudinary.com/dn3bmj5ex/image/upload/v1692781672/z4366478729374_c994562489d7717e77887d5a804135f8_tatwfi.jpg,
                 https://res.cloudinary.com/dn3bmj5ex/image/upload/v1692781671/z4366478728479_435cdb2cdbf8370ce61fe03f06a8afe9_e5spii.jpg',
-                'description' => '',
+                'description' => '<body>
+                <h2>K&iacute;ch thước Căn hộ&nbsp;</h2>
+                <p>40 m&sup2;</p>
+                <p><br></p>
+                <div><br></div>
+                <div>Giường thoải m&aacute;i, 8.8 &ndash; Dựa tr&ecirc;n 47 đ&aacute;nh gi&aacute;</div>
+                <p>Boasting a private entrance, this air-conditioned apartment features 1 living room, 1 separate bedroom and 1 bathroom with a bath and a shower. The well-fitted kitchen has a stovetop, a refrigerator, kitchenware and a microwave. The apartment features soundproof walls, a seating area, a dining area, a wardrobe, as well as a flat-screen TV. The unit has 1 bed.</p>
+                <div>
+                    <p><br></p>
+                    <h2>Trong nh&agrave; bếp ri&ecirc;ng của bạn:</h2>
+                    <p><br></p>
+                    <ul>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Tủ lạnh</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Lò vi sóng</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Đồ bếp</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Ấm đun nước điện</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Bếp nấu</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Khu vực ph&ograve;ng ăn</li>
+                    </ul>
+                    <p><br></p>
+                    <h2>Trong ph&ograve;ng tắm:</h2>
+                    <p><br></p>
+                    <ul>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Toilet chung</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Đồ vệ sinh c&aacute; nh&acirc;n miễn ph&iacute;</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Chậu rửa v&ecirc;̣ sinh (bidet)</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Nh&agrave; vệ sinh</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>B&ocirc;̀n tắm hoặc Vòi sen</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Dép</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Toilet chung</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Máy s&acirc;́y tóc</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Toilet phụ</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Giấy vệ sinh</li>
+                    </ul>
+                    <p><br></p>
+                    <h2>Hướng tầm nh&igrave;n:</h2>
+                    <p><br></p>
+                    <ul>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Tầm nh&igrave;n ra khung cảnh</li>
+                    </ul>
+                    <p><br></p>
+                    <h2>Tiện nghi Căn hộ: </h2>
+                    <p><br></p>
+                    <ul>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>B&ecirc;́p</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Tủ lạnh</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Lò vi sóng</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Đồ bếp</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Ấm đun nước điện</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Bếp nấu</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Khu vực ph&ograve;ng ăn</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Bàn làm vi&ecirc;̣c</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>TV m&agrave;n h&igrave;nh phẳng</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Truyền h&igrave;nh trả tiền</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Ghế sofa</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Bàn ủi</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Gi&aacute; phơi quần &aacute;o</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Khăn tắm</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Căn hộ ri&ecirc;ng trong t&ograve;a nh&agrave;</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Ti&ecirc;̣n nghi ủi</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Khu vực ti&ecirc;́p khách</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Ổ điện gần giường</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Lò vi sóng</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>TV</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Tủ lạnh</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Kh&ocirc;ng g&acirc;y dị ứng</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Ra trải giường</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Bếp nấu</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Lối v&agrave;o ri&ecirc;ng</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Đồ bếp</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>B&ecirc;́p nhỏ</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Ấm đun nước điện</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>B&ecirc;́p</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>M&aacute;y điều h&ograve;a độc lập cho từng ph&ograve;ng</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Phòng thay qu&acirc;̀n áo</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Tủ hoặc ph&ograve;ng để quần &aacute;o</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Sản phẩm lau rửa</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Hệ thống c&aacute;ch &acirc;m</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Điều h&ograve;a kh&ocirc;ng kh&iacute;</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Khu vực ph&ograve;ng ăn</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Gi&aacute; treo quần &aacute;o</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Nước rửa tay</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>H&uacute;t thuốc:&nbsp;</h2>Kh&ocirc;ng h&uacute;t thuốc
+                </div>
+            </body>',
                 'price' => '850000',
                 'category_id' => 1,
                 'created_at' => Carbon::now()
@@ -45,7 +242,204 @@ class RoomSeeder extends Seeder
                 https://res.cloudinary.com/dn3bmj5ex/image/upload/v1692781935/z4327630189570_aea27dba38bc4044bdbff006311b96df_t5zas2.jpg,
                 https://res.cloudinary.com/dn3bmj5ex/image/upload/v1692781935/z4327630196017_315cc76a783c80f92bc7ce0e76a8c549_yiwblt.jpg,
                 ',
-                'description' => '',
+                'description' => '<body>
+                <h2>K&iacute;ch thước Căn hộ&nbsp;</h2>
+                <p>40 m&sup2;</p>
+                <p><br></p>
+                <div><br></div>
+                <div>Giường thoải m&aacute;i, 8.8 &ndash; Dựa tr&ecirc;n 47 đ&aacute;nh gi&aacute;</div>
+                <p>Boasting a private entrance, this air-conditioned apartment features 1 living room, 1 separate bedroom and 1 bathroom with a bath and a shower. The well-fitted kitchen has a stovetop, a refrigerator, kitchenware and a microwave. The apartment features soundproof walls, a seating area, a dining area, a wardrobe, as well as a flat-screen TV. The unit has 1 bed.</p>
+                <div>
+                    <p><br></p>
+                    <h2>Trong nh&agrave; bếp ri&ecirc;ng của bạn:</h2>
+                    <p><br></p>
+                    <ul>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Tủ lạnh</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Lò vi sóng</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Đồ bếp</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Ấm đun nước điện</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Bếp nấu</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Khu vực ph&ograve;ng ăn</li>
+                    </ul>
+                    <p><br></p>
+                    <h2>Trong ph&ograve;ng tắm:</h2>
+                    <p><br></p>
+                    <ul>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Toilet chung</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Đồ vệ sinh c&aacute; nh&acirc;n miễn ph&iacute;</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Chậu rửa v&ecirc;̣ sinh (bidet)</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Nh&agrave; vệ sinh</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>B&ocirc;̀n tắm hoặc Vòi sen</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Dép</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Toilet chung</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Máy s&acirc;́y tóc</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Toilet phụ</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Giấy vệ sinh</li>
+                    </ul>
+                    <p><br></p>
+                    <h2>Hướng tầm nh&igrave;n:</h2>
+                    <p><br></p>
+                    <ul>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Tầm nh&igrave;n ra khung cảnh</li>
+                    </ul>
+                    <p><br></p>
+                    <h2>Tiện nghi Căn hộ: </h2>
+                    <p><br></p>
+                    <ul>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>B&ecirc;́p</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Tủ lạnh</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Lò vi sóng</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Đồ bếp</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Ấm đun nước điện</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Bếp nấu</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Khu vực ph&ograve;ng ăn</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Bàn làm vi&ecirc;̣c</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>TV m&agrave;n h&igrave;nh phẳng</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Truyền h&igrave;nh trả tiền</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Ghế sofa</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Bàn ủi</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Gi&aacute; phơi quần &aacute;o</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Khăn tắm</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Căn hộ ri&ecirc;ng trong t&ograve;a nh&agrave;</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Ti&ecirc;̣n nghi ủi</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Khu vực ti&ecirc;́p khách</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Ổ điện gần giường</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Lò vi sóng</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>TV</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Tủ lạnh</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Kh&ocirc;ng g&acirc;y dị ứng</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Ra trải giường</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Bếp nấu</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Lối v&agrave;o ri&ecirc;ng</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Đồ bếp</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>B&ecirc;́p nhỏ</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Ấm đun nước điện</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>B&ecirc;́p</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>M&aacute;y điều h&ograve;a độc lập cho từng ph&ograve;ng</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Phòng thay qu&acirc;̀n áo</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Tủ hoặc ph&ograve;ng để quần &aacute;o</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Sản phẩm lau rửa</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Hệ thống c&aacute;ch &acirc;m</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Điều h&ograve;a kh&ocirc;ng kh&iacute;</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Khu vực ph&ograve;ng ăn</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Gi&aacute; treo quần &aacute;o</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Nước rửa tay</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>H&uacute;t thuốc:&nbsp;</h2>Kh&ocirc;ng h&uacute;t thuốc
+                </div>
+            </body>',
                 'price' => '850000',
                 'category_id' => 1,
                 'created_at' => Carbon::now()
@@ -80,7 +474,204 @@ class RoomSeeder extends Seeder
                 https://res.cloudinary.com/dn3bmj5ex/image/upload/v1692782196/302.BH4_2_jqzi47.jpg,
                 https://res.cloudinary.com/dn3bmj5ex/image/upload/v1692782196/302.BH4_5_o9sa1b.jpg,
                 ',
-                'description' => '',
+                'description' => '<body>
+                <h2>K&iacute;ch thước Căn hộ&nbsp;</h2>
+                <p>40 m&sup2;</p>
+                <p><br></p>
+                <div><br></div>
+                <div>Giường thoải m&aacute;i, 8.8 &ndash; Dựa tr&ecirc;n 47 đ&aacute;nh gi&aacute;</div>
+                <p>Boasting a private entrance, this air-conditioned apartment features 1 living room, 1 separate bedroom and 1 bathroom with a bath and a shower. The well-fitted kitchen has a stovetop, a refrigerator, kitchenware and a microwave. The apartment features soundproof walls, a seating area, a dining area, a wardrobe, as well as a flat-screen TV. The unit has 1 bed.</p>
+                <div>
+                    <p><br></p>
+                    <h2>Trong nh&agrave; bếp ri&ecirc;ng của bạn:</h2>
+                    <p><br></p>
+                    <ul>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Tủ lạnh</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Lò vi sóng</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Đồ bếp</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Ấm đun nước điện</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Bếp nấu</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Khu vực ph&ograve;ng ăn</li>
+                    </ul>
+                    <p><br></p>
+                    <h2>Trong ph&ograve;ng tắm:</h2>
+                    <p><br></p>
+                    <ul>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Toilet chung</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Đồ vệ sinh c&aacute; nh&acirc;n miễn ph&iacute;</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Chậu rửa v&ecirc;̣ sinh (bidet)</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Nh&agrave; vệ sinh</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>B&ocirc;̀n tắm hoặc Vòi sen</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Dép</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Toilet chung</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Máy s&acirc;́y tóc</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Toilet phụ</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Giấy vệ sinh</li>
+                    </ul>
+                    <p><br></p>
+                    <h2>Hướng tầm nh&igrave;n:</h2>
+                    <p><br></p>
+                    <ul>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Tầm nh&igrave;n ra khung cảnh</li>
+                    </ul>
+                    <p><br></p>
+                    <h2>Tiện nghi Căn hộ: </h2>
+                    <p><br></p>
+                    <ul>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>B&ecirc;́p</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Tủ lạnh</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Lò vi sóng</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Đồ bếp</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Ấm đun nước điện</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Bếp nấu</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Khu vực ph&ograve;ng ăn</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Bàn làm vi&ecirc;̣c</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>TV m&agrave;n h&igrave;nh phẳng</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Truyền h&igrave;nh trả tiền</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Ghế sofa</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Bàn ủi</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Gi&aacute; phơi quần &aacute;o</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Khăn tắm</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Căn hộ ri&ecirc;ng trong t&ograve;a nh&agrave;</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Ti&ecirc;̣n nghi ủi</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Khu vực ti&ecirc;́p khách</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Ổ điện gần giường</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Lò vi sóng</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>TV</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Tủ lạnh</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Kh&ocirc;ng g&acirc;y dị ứng</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Ra trải giường</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Bếp nấu</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Lối v&agrave;o ri&ecirc;ng</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Đồ bếp</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>B&ecirc;́p nhỏ</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Ấm đun nước điện</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>B&ecirc;́p</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>M&aacute;y điều h&ograve;a độc lập cho từng ph&ograve;ng</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Phòng thay qu&acirc;̀n áo</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Tủ hoặc ph&ograve;ng để quần &aacute;o</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Sản phẩm lau rửa</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Hệ thống c&aacute;ch &acirc;m</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Điều h&ograve;a kh&ocirc;ng kh&iacute;</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Khu vực ph&ograve;ng ăn</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Gi&aacute; treo quần &aacute;o</li>
+                        <li><svg fill="" size="small" width="14" height="14">
+                                <path d="M56.33 100a4 4 0 0 1-2.82-1.16L20.68 66.12a4 4 0 1 1 5.64-5.65l29.57 29.46 45.42-60.33a4 4 0 1 1 6.38 4.8l-48.17 64a4 4 0 0 1-2.91 1.6z"></path>
+                            </svg>Nước rửa tay</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>H&uacute;t thuốc:&nbsp;</h2>Kh&ocirc;ng h&uacute;t thuốc
+                </div>
+            </body>',
                 'price' => '850000',
                 'category_id' => 1,
                 'created_at' => Carbon::now()

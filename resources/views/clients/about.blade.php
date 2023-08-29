@@ -17,7 +17,7 @@
                          MerryHouse là khu căn hộ cao cấp với đầy đủ công năng và dịch vụ.
                          Chúng tôi không chỉ cung cấp các loại căn hộ mà còn cung cấp dịch vụ cao cấp đi kèm.
                           Bên cạnh đó, cùng với dịch vụ chuyên nghiệp sẽ mang đến cho khách hàng những trải nghiệm tuyệt
-                          vời khi nghỉ dưỡng tại căn hộ MerryHouset</p>
+                          vời khi nghỉ dưỡng tại căn hộ MerryHouse</p>
                     <div class="row g-3 pb-4">
                         <div class="col-sm-4 wow fadeIn" data-wow-delay="0.1s">
                             <div class="border rounded p-1">

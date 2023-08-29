@@ -55,19 +55,9 @@
                         <small class="bg-light rounded py-1 px-3 m-1"><i class="fa fa-user-cog text-primary me-2"></i>Laundry</small>
                         <small class="bg-light rounded py-1 px-3 m-1"><i class="fa fa-utensils text-primary me-2"></i>Dinner</small>
                     </div>
-                    <p>
-                    Tọa lạc tại thành phố Hải Phòng, Merry House Imperia có WiFi miễn phí, khu vườn, sảnh khách chung và quầy bar.
-                    Chỗ nghỉ được bố trí máy điều hòa,
-                    bếp ăn đầy đủ tiện nghi với khu vực ăn uống,
-                    TV màn hình phẳng cũng như phòng tắm riêng đi kèm vòi xịt/chậu rửa vệ sinh,
-                    đồ vệ sinh cá nhân miễn phí và máy sấy tóc. Các căn còn được trang bị tủ lạnh, l
-                    ò vi sóng, bếp nấu ăn và ấm đun nước.
-                    </p>
-                    <p class="mb-5">Khách sạn căn hộ này cũng có sân chơi cho trẻ em.
-                                    Merry House Imperia nằm cách Nhà Hát Lớn Hải Phòng 3km và trung tâm thương mại Vincom Plaza Hải Phòng 3,5 km.
-                                    Sân bay gần nhất là sân bay quốc tế Cát Bi, cách đó 10 km,
-                                    và chỗ nghỉ cung cấp dịch vụ đưa đón sân bay với một khoản phụ phí.
-                    </p>
+                    <div>
+                    {!! html_entity_decode($room->description) !!}
+                    </div>
                     <div class="tab-class wow fadeInUp" data-wow-delay="0.1s" style="visibility: hidden; animation-delay: 0.1s; animation-name: none;">
                         <ul class="nav nav-pills d-flex justify-content-between border-bottom mb-4">
                             <li class="nav-item">
