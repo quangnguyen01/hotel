@@ -24,6 +24,7 @@ Route::prefix('admin')->middleware(['auth', CheckAdmin::class])->group(function 
 
 Route::get('/login', [EntryController::class, 'loginForm'])->name('login');
 Route::post('/login', [EntryController::class, 'login'])->name('loginPost');
+Route::post('/register', [EntryController::class, 'register'])->name('register');
 Route::get('/logout', [EntryController::class, 'logout'])->name('logout');
 
 Route::get('/', [ClientController::class, 'home'])->name('home-page');

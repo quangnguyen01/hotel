@@ -44,7 +44,12 @@
                         <a href="{{@route('room-page')}}" class="nav-item nav-link {{@url()->current() === @route('room-page') ? 'active' : ''}}">Tin tức</a>
                         <a href="{{route('contact-page')}}" class="nav-item nav-link {{@url()->current() === @route('contact-page') ? 'active' : ''}}">Liên hệ</a>
                     </div>
-{{--                    <a href="https://htmlcodex.com/hotel-html-template-pro" class="btn btn-primary rounded-0 py-4 px-md-5 d-none d-lg-block">Premium Version<i class="fa fa-arrow-right ms-3"></i></a>--}}
+                    @if(\Illuminate\Support\Facades\Auth::user())
+                        <a href="{{route('logout')}}">Đăng xuất</a>
+                        <a href="#" class="btn btn-primary rounded-0 py-4 px-md-5 d-none d-lg-block">Xin chào, {{\Illuminate\Support\Facades\Auth::user()->name}}</a>
+                    @else
+                        <a href="{{route('login')}}" class="btn btn-primary rounded-0 py-4 px-md-5 d-none d-lg-block">Đăng ký / Đăng nhập</a>
+                    @endif
                 </div>
             </nav>
         </div>

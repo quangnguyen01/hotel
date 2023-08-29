@@ -6,6 +6,7 @@
 
 <!-- Favicon -->
 <link href="/assets/images/favicon.ico" rel="icon">
+<link rel="icon" href="/assets/images/logo.png">
 
 <!-- Google Web Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">

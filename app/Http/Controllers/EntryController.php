@@ -2,9 +2,13 @@
 
 namespace App\Http\Controllers;
 
+use App\Enums\Role;
 use App\Http\Requests\LoginRequest;
+use App\Http\Requests\UserRequest;
+use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Hash;
 
 class EntryController extends Controller
 {
@@ -15,12 +19,23 @@ class EntryController extends Controller
         $request->validated();
         $credentials = $request->only('email', 'password');
         if(Auth::attempt($credentials)){
-            return redirect()->route('listCategory');
+            if(Auth::user()->role == Role::ADMIN) {
+                return redirect()->route('listCategory');
+            }
+            return redirect()->route('home-page');
         }
         else{
             return back()->with('error-login','Invalid account and/or password. Please check and try again.');
         }
 
+    }
+
+    public function register(UserRequest $request) {
+        $user = new User();
+        $user->fill($request->validated());
+        $user->password = Hash::make($request['password']);
+        $user->save();
+        return back()->with(['status' => 'Tạo tài khoản thành công']);
     }
     public function logout(){
         Auth::logout();
