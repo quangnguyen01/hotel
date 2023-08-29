@@ -260,32 +260,53 @@
                         <div class="row g-3 p-4 pt-2">
 
                                 <div class="col-12">
-                                    <input type="text" class="form-control" name="name" placeholder="Name">
+                                    <input type="text" class="form-control" name="name" placeholder="Name" value="{{\Illuminate\Support\Facades\Auth::user() ? \Illuminate\Support\Facades\Auth::user()->name : ''}}">
+                                    @error('name')
+                                    <div style="color: red">* {{$message}}</div>
+                                    @enderror
                                 </div>
                                 <div class="col-12">
-                                    <input type="email" class="form-control" name="email" placeholder="Email">
+                                    <input type="email" class="form-control" name="email" placeholder="Email" value="{{\Illuminate\Support\Facades\Auth::user() ? \Illuminate\Support\Facades\Auth::user()->email : ''}}">
+                                    @error('email')
+                                    <div style="color: red">* {{$message}}</div>
+                                    @enderror
                                 </div>
                                 <div class="col-12">
-                                    <input type="text" class="form-control" name="phone" placeholder="Phone">
+                                    <input type="text" class="form-control" name="phone" placeholder="Phone" value="{{\Illuminate\Support\Facades\Auth::user() ? \Illuminate\Support\Facades\Auth::user()->phone_number : ''}}">
+                                    @error('phone')
+                                    <div style="color: red">* {{$message}}</div>
+                                    @enderror
                                 </div>
                                 <div class="col-8">
                                     <div class="date">
                                         <input type="date" name="check_in_date" class="form-control" placeholder="Check in" min="{{\Carbon\Carbon::now()->toDateString()}}">
+                                        @error('check_in_date')
+                                        <div style="color: red">* {{$message}}</div>
+                                        @enderror
                                     </div>
                                 </div>
                                 <div class="col-4">
                                     <div class="date">
                                         <input type="time" name="check_in_time" class="form-control" placeholder="Check in time">
+                                        @error('check_in_time')
+                                        <div style="color: red">* {{$message}}</div>
+                                        @enderror
                                     </div>
                                 </div>
                                 <div class="col-8">
                                     <div class="date">
                                         <input type="date" name="check_out_date" class="form-control" placeholder="Check out" min="{{\Carbon\Carbon::now()->toDateString()}}">
+                                        @error('check_out_date')
+                                        <div style="color: red">* {{$message}}</div>
+                                        @enderror
                                     </div>
                                 </div>
                                 <div class="col-4">
                                     <div class="date">
                                         <input type="time" name="check_out_time" class="form-control" placeholder="Check out time">
+                                        @error('check_out_time')
+                                        <div style="color: red">* {{$message}}</div>
+                                        @enderror
                                     </div>
                                 </div>
                                 <div class="col-12">
@@ -295,6 +316,9 @@
                                         <option value="2">Adult 2</option>
                                         <option value="3">Adult 3</option>
                                     </select>
+                                    @error('adult')
+                                    <div style="color: red">* {{$message}}</div>
+                                    @enderror
                                 </div>
                                 <div class="col-12">
                                     <select class="form-select" name="child">
@@ -303,6 +327,9 @@
                                         <option value="2">Child 2</option>
                                         <option value="3">Child 3</option>
                                     </select>
+                                    @error('child')
+                                    <div style="color: red">* {{$message}}</div>
+                                    @enderror
                                 </div>
                                 <div class="col-12">
                                     <textarea class="form-control" name="special_request" placeholder="Special Request"></textarea>
