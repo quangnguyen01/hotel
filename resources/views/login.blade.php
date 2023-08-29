@@ -312,6 +312,12 @@
         </button>
     </div>
     <div class="body">
+        @if(session()->get('status'))
+            <div class="alert alert-success alert-dismissible fade show">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <strong>Thành công !</strong> {{ session()->get( 'status' ) }}
+            </div>
+        @endif
         <div class="content active" id="signin">
             <div>
                 <h1 style="color: #e87a2c">Merry <span style="color: #aa3331">House</span></h1>

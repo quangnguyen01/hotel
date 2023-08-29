@@ -89,6 +89,8 @@
                                 <p><strong>Tên: {{$data->name}}</strong></p>
                                 <p>Mail: {{$data->email}}</p>
                                 <p>SĐT: {{$data->phone}}</p>
+                                <p>Người lớn: {{$data->adult}}</p>
+                                <p>Trẻ nhỏ: {{$data->child}}</p>
 
                             </td>
                             <td>{{$data->check_in_date}} {{$data->check_in_time}}</td>
