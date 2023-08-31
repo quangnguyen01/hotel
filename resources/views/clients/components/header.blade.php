@@ -43,7 +43,9 @@
                         <a href="{{@route('room-page')}}" class="nav-item nav-link {{@url()->current() === @route('room-page') ? 'active' : ''}}">Căn hộ</a>
 {{--                        <a href="{{@route('room-page')}}" class="nav-item nav-link {{@url()->current() === @route('room-page') ? 'active' : ''}}">Tin tức</a>--}}
                         <a href="{{route('contact-page')}}" class="nav-item nav-link {{@url()->current() === @route('contact-page') ? 'active' : ''}}">Liên hệ</a>
+                        @if(\Illuminate\Support\Facades\Auth::user())
                         <a href="{{route('logout')}}" class="nav-item nav-link">Đăng xuất</a>
+                        @endif
                     </div>
                     @if(\Illuminate\Support\Facades\Auth::user())
                         <a href="#" class="rounded-0 py-4 px-md-5 d-none d-lg-block text-white">
