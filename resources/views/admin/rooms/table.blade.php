@@ -84,7 +84,18 @@
                                      width="75" alt=""/></td>
                             <td>{{$data->category->name}}</td>
                             <td>{{number_format($data->price)}} đ</td>
-                            <td>{{\App\Enums\RoomStatus::getDescription($data->status)}}</td>
+                            <td><span class="badge
+                            @switch($data->status)
+                            @case(\App\Enums\RoomStatus::INACTIVE)
+                            badge-primary
+                            @break
+                            @case(\App\Enums\RoomStatus::ACTIVE)
+                            badge-success
+                            @break
+                            @case(\App\Enums\RoomStatus::BOOKED)
+                            badge-warning
+                            @endswitch
+                            ">{{\App\Enums\RoomStatus::getDescription($data->status)}}</span></td>
                             <td>
                                 <a class="btn btn-primary mr-2" href="{{route('editRoom', $data->id)}}"><i
                                         class="fas fa-edit"></i></a>

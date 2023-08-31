@@ -97,11 +97,25 @@
                             <td>{{$data->check_out_date}} {{$data->check_out_time}}</td>
                             <td>{{number_format($data->unit_price)}} đ</td>
                             <td>{{date_format($data->created_at,'d/m/Y')}}</td>
-                            <td>{{\App\Enums\BookingStatus::getDescription($data->status)}}</td>
+                            <td><span class="badge
+                            @switch($data->status)
+                            @case(\App\Enums\BookingStatus::PENDING)
+                            badge-danger
+                            @break
+                            @case(\App\Enums\BookingStatus::CONFIRM)
+                            badge-primary
+                            @break
+                            @case(\App\Enums\BookingStatus::ACTIVE)
+                            badge-success
+                            @break
+                            @case(\App\Enums\BookingStatus::PAID)
+                            badge-warning
+                            @break
+                            @endswitch
+                            ">{{\App\Enums\BookingStatus::getDescription($data->status)}}</span></td>
                             <td>
-                                <a href=""><button class="btn btn-primary"><i class="fa fa-info-circle"></i></button></a>
                                 <a onclick="return confirm('Bạn có chắc muốn xóa đơn đặt phòng này ?')"
-                                   href="">
+                                   href="{{route('deleteBooking', $data->id)}}">
                                     <button class="btn btn-danger"><i class="fa fa-trash"></i></button>
                                 </a></td>
                         </tr>

@@ -68,7 +68,7 @@
                             <td>{{$listUser->id}}</td>
                             <td>{{$listUser->name }}</td>
                             <td>{{$listUser->email}}</td>
-                            <td><span>{{\App\Enums\Role::getDescription($listUser->role)}}</span></td>
+                            <td><span class="badge {{$listUser->role == 1 ? 'badge-danger' : 'badge-primary' }}">{{\App\Enums\Role::getDescription($listUser->role)}}</span></td>
                             <td>
                                 <a href="{{route('editUser',$listUser->id)}}">
                                     <button class="btn btn-primary"><i class="fa fa-edit"></i></button>

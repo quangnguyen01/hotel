@@ -327,10 +327,13 @@
             </p>
 
             <div class="flex justify-content-center">
-                <button class="btn btn-oauth">
-                    <i class="fa-brands fa-google"></i> Đăng nhập bằng Google
-                </button>
-            </div>
+                <form action="{{route('signInGoogle')}}" method="post">
+                    @csrf
+                    <button type="submit" class="btn btn-oauth">
+                        <i class="fa-brands fa-google"></i> Đăng nhập bằng Google
+                    </button>
+                </form>
+                            </div>
 
             <div class="bar"></div>
 

@@ -31,12 +31,12 @@
     </div>
     <div class="app-sidebar__inner" style="margin: 20px">
         <ul class="vertical-nav-menu metismenu">
-{{--            <li class="sidebar_item" style="border: none!important;">--}}
-{{--                <a href="{{route('home')}}" class="sidebar_item">--}}
-{{--                    <i class="metismenu-icon fas fa-chart-bar"></i>--}}
-{{--                    <p style="margin-right: 20px">Dashbroad</p>--}}
-{{--                </a>--}}
-{{--            </li>--}}
+            <li class="sidebar_item" style="border: none!important;">
+                <a href="{{route('managerRoom')}}" class="sidebar_item">
+                    <i class="metismenu-icon fas fa-list"></i>
+                    <p style="margin-right: 20px">Quản lý căn hộ</p>
+                </a>
+            </li>
             <li class="sidebar_item" style="border: none!important;">
                 <a href="#" class="sidebar_item">
                     <i class="metismenu-icon fas fa-user"></i>

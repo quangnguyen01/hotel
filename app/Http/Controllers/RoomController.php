@@ -93,4 +93,28 @@ class RoomController extends Controller
         return redirect()->route('listRoom')
             ->with('success', 'Xoá thành công.');
     }
+
+    public function manager(Request $request)
+    {
+        $queryBuilder = Room::query();
+        $search = $request->get('search');
+        $category = $request->get('category');
+        $status = $request->get('status');
+        if ($search || strlen($search) > 0) {
+            $queryBuilder = $queryBuilder->where('name', 'like', '%' . $search . '%');
+        }
+        if ($category) {
+            $queryBuilder = $queryBuilder->where('category_id',$category);
+        }
+        if ($status) {
+            $queryBuilder = $queryBuilder->where('status', $status);
+        }
+        $data = $queryBuilder->orderBy('created_at','DESC')->get();
+        return view('admin.rooms.manager', [
+            'rooms' => $data,
+            'categories' => $category,
+            'status' => $status,
+        ]);
+
+    }
 }

@@ -38,15 +38,18 @@
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav mr-auto py-0">
                         <a href="{{@route('home-page')}}" class="nav-item nav-link {{@url()->current() === @route('home-page') ? 'active' : ''}}" style="margin-left: 30px">Trang chủ </a>
-                        <a href="{{@route('about-page')}}" class="nav-item nav-link {{@url()->current() === @route('about-page') ? 'active' : ''}}">Giới thiệu</a>
+{{--                        <a href="{{@route('about-page')}}" class="nav-item nav-link {{@url()->current() === @route('about-page') ? 'active' : ''}}">Giới thiệu</a>--}}
                         <a href="{{@route('service-page')}}" class="nav-item nav-link {{@url()->current() === @route('service-page') ? 'active' : ''}}">Dịch vụ</a>
                         <a href="{{@route('room-page')}}" class="nav-item nav-link {{@url()->current() === @route('room-page') ? 'active' : ''}}">Căn hộ</a>
-                        <a href="{{@route('room-page')}}" class="nav-item nav-link {{@url()->current() === @route('room-page') ? 'active' : ''}}">Tin tức</a>
+{{--                        <a href="{{@route('room-page')}}" class="nav-item nav-link {{@url()->current() === @route('room-page') ? 'active' : ''}}">Tin tức</a>--}}
                         <a href="{{route('contact-page')}}" class="nav-item nav-link {{@url()->current() === @route('contact-page') ? 'active' : ''}}">Liên hệ</a>
+                        <a href="{{route('logout')}}" class="nav-item nav-link">Đăng xuất</a>
                     </div>
                     @if(\Illuminate\Support\Facades\Auth::user())
-                        <a href="{{route('logout')}}">Đăng xuất</a>
-                        <a href="#" class="btn btn-primary rounded-0 py-4 px-md-5 d-none d-lg-block">Xin chào, {{\Illuminate\Support\Facades\Auth::user()->name}}</a>
+                        <a href="#" class="rounded-0 py-4 px-md-5 d-none d-lg-block text-white">
+                            <img class="rounded-circle" style="margin-right: 10px;width: 30px;height: 30px;object-fit: cover"  src="{{\Illuminate\Support\Facades\Auth::user()->avatar ? \Illuminate\Support\Facades\Auth::user()->avatar : 'https://e7.pngegg.com/pngimages/84/165/png-clipart-united-states-avatar-organization-information-user-avatar-service-computer-wallpaper.png'}}" alt="">
+                            {{\Illuminate\Support\Facades\Auth::user()->name}}
+                        </a>
                     @else
                         <a href="{{route('login')}}" class="btn btn-primary rounded-0 py-4 px-md-5 d-none d-lg-block">Đăng ký / Đăng nhập</a>
                     @endif

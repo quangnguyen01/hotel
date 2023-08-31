@@ -21,7 +21,7 @@ class BookingRequest extends FormRequest
      */
     public function rules(): array
     {
-        return [
+        $rules = [
             'name'=>'required',
             'email'=>'required',
             'phone'=>'required',
@@ -36,6 +36,10 @@ class BookingRequest extends FormRequest
             'route' => '',
             'price' => '',
         ];
+        if(request()->isMethod('put')){
+            array_push($rules, ['status' => '']);
+        }
+        return $rules;
     }
 
     public function messages()
