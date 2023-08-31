@@ -31,9 +31,14 @@ Route::prefix('rooms')->group(function () {
     Route::get('edit/{id}', [RoomController::class, 'edit'])->name('editRoom');
     Route::put('edit/{id}', [RoomController::class, 'save'])->name('saveRoom');
     Route::get('delete/{id}', [RoomController::class, 'delete'])->name('deleteRoom');
+    Route::get('manager', [RoomController::class, 'manager'])->name('managerRoom');
 });
 
 Route::prefix('bookings')->group(function () {
    Route::get('', [BookingController::class, 'list'])->name('listBooking');
    Route::post('', [BookingController::class, 'updateStatus'])->name('updateStatus');
+   Route::get('room/{id}', [BookingController::class, 'bookingForm'])->name('creatBooking');
+   Route::get('room/{id}/edit', [BookingController::class, 'editBooking'])->name('editBooking');
+   Route::put('update/{id}', [BookingController::class, 'save'])->name('saveBooking');
+   Route::get('delete/{id}', [BookingController::class, 'delete'])->name('deleteBooking');
 });

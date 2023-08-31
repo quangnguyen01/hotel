@@ -91,8 +91,9 @@
                             </div>
                             <p class="text-body mb-3">Căn hộ có máy lạnh và có lối vào riêng, 1 phòng khách, 2 phòng ngủ riêng biệt và 2 phòng tắm với bồn tắm cùng vòi sen </p>
                             <div class="d-flex justify-content-between">
-                                <a class="btn btn-sm btn-primary rounded py-2 px-4" href="{{@route('room-detail', $room->id)}}">Xem Phòng</a>
-                                <a class="btn btn-sm btn-dark rounded py-2 px-4" href="{{@route('room-detail', $room->id)}}">Đặt phòng ngay</a>
+                                <a class="btn btn-sm btn-primary rounded py-2 px-4" href="{{@route('room-detail', $room->id)}}">Đặt phòng</a>
+                                <a class="btn btn-sm btn-dark rounded py-2 px-4" href="/room-detail/{{$room->id}}#tab-4">Xem đánh giá</a>
+
                             </div>
                         </div>
                     </div>

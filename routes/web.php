@@ -3,6 +3,7 @@
 use App\Http\Controllers\BookingController;
 use App\Http\Controllers\ClientController;
 use App\Http\Controllers\EntryController;
+use App\Http\Controllers\GoogleController;
 use App\Http\Middleware\CheckAdmin;
 use Illuminate\Support\Facades\Route;
 
@@ -34,6 +35,8 @@ Route::get('/room-detail/{id}', [ClientController::class, 'detail'])->name('room
 Route::post('/booking', [BookingController::class, 'store'])->name('booking');
 Route::get('/success', function () { return view('clients/success'); })->name('success');
 
+Route::get('/booking-detail/{id}', [BookingController::class, 'bookingDetail'])->name('booking-detail');
+
 Route::get('/about', function () {
     return view('clients/about');
 })->name('about-page');
@@ -46,6 +49,14 @@ Route::get('/service', function () {
     return view('clients/service');
 })->name('service-page');
 
+Route::get('mail-design',function (){
+    return view('mail.confirm');
+});
+
+Route::get('booking-confirm/{id}', [BookingController::class, 'bookConfirm'])->name('bookingConfirm');
+
+Route::post('/get-google-sign-in-url', [GoogleController::class, 'getGoogleSignInUrl'])->name('signInGoogle');
+Route::get('/google/callback', [GoogleController::class, 'loginCallback']);
 
 
 

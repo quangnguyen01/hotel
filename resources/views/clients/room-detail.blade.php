@@ -398,3 +398,15 @@
         </div>
     </div>
 @endsection
+@section('mix_js')
+    <script>
+        document.addEventListener("DOMContentLoaded", (event) => {
+            const id = window.location.href.split('#').pop();
+            if (id) {
+                document.getElementById(id).classList.add('active');
+                window.scrollTo(0, 3300);
+            }
+        });
+
+    </script>
+@endsection

@@ -56,7 +56,7 @@
                         </div>
                         <div class="widget-content-left  ml-3 header-user-info">
                             <div class="widget-heading">
-                                {{\Illuminate\Support\Facades\Auth::user()->first_name. ' ' . \Illuminate\Support\Facades\Auth::user()->last_name}}
+                                {{\Illuminate\Support\Facades\Auth::user()->name}}
                             </div>
                             <div class="widget-subheading">
                                 <a href="{{route('logout')}}">Đăng xuất</a>

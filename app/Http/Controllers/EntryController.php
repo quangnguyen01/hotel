@@ -18,9 +18,10 @@ class EntryController extends Controller
     public function login(LoginRequest $request){
         $request->validated();
         $credentials = $request->only('email', 'password');
+        dd($credentials);
         if(Auth::attempt($credentials)){
             if(Auth::user()->role == Role::ADMIN) {
-                return redirect()->route('listCategory');
+                return redirect()->route('managerRoom');
             }
             return redirect()->route('home-page');
         }
