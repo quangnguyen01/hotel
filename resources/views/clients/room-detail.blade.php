@@ -47,13 +47,13 @@
                         </div>
                     </div>
                     <div class="d-flex flex-wrap pb-4 m-n1">
-                        <small class="bg-light rounded py-1 px-3 m-1"><i class="fa fa-bed text-primary me-2"></i>1 Bed</small>
+                        <small class="bg-light rounded py-1 px-3 m-1" data-toggle="tooltip" data-placement="top" title="Độ rộng: 1m6x2m"><i class="fa fa-bed text-primary me-2"></i>1 Bed </small>
                         <small class="bg-light rounded py-1 px-3 m-1"><i class="fa fa-bath text-primary me-2"></i>1 Bath</small>
-                        <small class="bg-light rounded py-1 px-3 m-1"><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
-                        <small class="bg-light rounded py-1 px-3 m-1"><i class="fa fa-tv text-primary me-2"></i>TV</small>
+                        <small class="bg-light rounded py-1 px-3 m-1" data-toggle="tooltip" data-placement="top" title="Free"><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
+                        <small class="bg-light rounded py-1 px-3 m-1" data-toggle="tooltip" data-placement="top" title="Màn hình 42 inch"><i class="fa fa-tv text-primary me-2"></i>TV</small>
                         <small class="bg-light rounded py-1 px-3 m-1"><i class="fa fa-fan text-primary me-2"></i>AC</small>
-                        <small class="bg-light rounded py-1 px-3 m-1"><i class="fa fa-user-cog text-primary me-2"></i>Laundry</small>
-                        <small class="bg-light rounded py-1 px-3 m-1"><i class="fa fa-utensils text-primary me-2"></i>Dinner</small>
+                        <small class="bg-light rounded py-1 px-3 m-1" data-toggle="tooltip" data-placement="top" title="Free"><i class="fa fa-user-cog text-primary me-2"></i>Laundry</small>
+                        <small class="bg-light rounded py-1 px-3 m-1" data-toggle="tooltip" data-placement="top" title="Free"><i class="fa fa-utensils text-primary me-2"></i>Dinner</small>
                     </div>
                     <div>
                     {!! html_entity_decode($room->description) !!}
