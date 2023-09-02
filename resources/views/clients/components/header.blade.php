@@ -37,12 +37,17 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav mr-auto py-0">
-                        <a href="{{@route('home-page')}}" class="nav-item nav-link {{@url()->current() === @route('home-page') ? 'active' : ''}}" style="margin-left: 30px">Trang chủ </a>
-{{--                        <a href="{{@route('about-page')}}" class="nav-item nav-link {{@url()->current() === @route('about-page') ? 'active' : ''}}">Giới thiệu</a>--}}
-                        <a href="{{@route('service-page')}}" class="nav-item nav-link {{@url()->current() === @route('service-page') ? 'active' : ''}}">Dịch vụ</a>
-                        <a href="{{@route('room-page')}}" class="nav-item nav-link {{@url()->current() === @route('room-page') ? 'active' : ''}}">Căn hộ</a>
-{{--                        <a href="{{@route('room-page')}}" class="nav-item nav-link {{@url()->current() === @route('room-page') ? 'active' : ''}}">Tin tức</a>--}}
-                        <a href="{{route('contact-page')}}" class="nav-item nav-link {{@url()->current() === @route('contact-page') ? 'active' : ''}}">Liên hệ</a>
+                        <a href="{{ route('home-page') }}" class="nav-item nav-link {{url()->current() === route('home-page') ? 'active' : ''}}" style="margin-left: 30px">Trang chủ </a>
+                        <a href="{{ route('service-page') }}" class="nav-item nav-link {{url()->current() === route('service-page') ? 'active' : ''}}">Dịch vụ</a>
+                        <a href="{{ route('room-page') }}" class="nav-item nav-link {{url()->current() === route('room-page') ? 'active' : ''}}">Căn hộ</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                            <div class="dropdown-menu rounded-0 m-0">
+                                <a href="{{route('about-page')}}" class="dropdown-item">Giới thiệu</a>
+                                <a href="{{route('news-page')}}" class="dropdown-item">Tin tức</a>
+                            </div>
+                        </div>
+                        <a href="{{route('contact-page')}}" class="nav-item nav-link {{url()->current() === route('contact-page') ? 'active' : ''}}">Liên hệ</a>
                         @if(\Illuminate\Support\Facades\Auth::user())
                         <a href="{{route('logout')}}" class="nav-item nav-link">Đăng xuất</a>
                         @endif

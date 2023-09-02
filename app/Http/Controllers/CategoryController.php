@@ -29,7 +29,7 @@ class CategoryController extends Controller
     {
         $queryBuilder = Category::query();
         $search = $request->get('search');
-        $sort = $request->get('sort');
+        $sort = (int) $request->get('sort');
         if ($search || strlen($search) > 0) {
             $queryBuilder = $queryBuilder->where('name', 'like', '%' . $search . '%');
         }

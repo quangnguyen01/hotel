@@ -37,32 +37,59 @@
                         </div>
                 </div>
                 <div class="col-md-6">
+                    @if ($message = \Illuminate\Support\Facades\Session::get('success'))
+                        <div class="alert alert-success">
+                            <p class="m-0">{{ $message }}</p>
+                        </div>
+                    @endif
                     <div class="wow fadeInUp" data-wow-delay="0.2s">
-                        <form>
+                        <form action="{{route('sendContact')}}" method="post">
+                            @csrf
                             <div class="row g-3">
-                                <div class="col-md-6">
+                                <div class="col-md-4">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control" id="name" placeholder="Tên">
+                                        <input type="text" class="form-control" id="name" placeholder="Tên" name="name">
                                         <label for="name">Tên</label>
                                     </div>
+                                    @error('name')
+                                    <div style="color: red">* {{$message}}</div>
+                                    @enderror
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-4">
                                     <div class="form-floating">
-                                        <input type="email" class="form-control" id="email" placeholder="Email">
+                                        <input type="email" class="form-control" id="email" placeholder="Email" name="email">
                                         <label for="email">Email</label>
                                     </div>
+                                    @error('email')
+                                    <div style="color: red">* {{$message}}</div>
+                                    @enderror
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="phone" placeholder="Phone" name="phone">
+                                        <label for="phone">Phone</label>
+                                    </div>
+                                    @error('phone')
+                                    <div style="color: red">* {{$message}}</div>
+                                    @enderror
                                 </div>
                                 <div class="col-12">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control" id="subject" placeholder="Vấn đề">
+                                        <input type="text" class="form-control" id="subject" placeholder="Vấn đề" name="subject">
                                         <label for="subject">Vấn đề</label>
                                     </div>
+                                    @error('subject')
+                                    <div style="color: red">* {{$message}}</div>
+                                    @enderror
                                 </div>
                                 <div class="col-12">
                                     <div class="form-floating">
-                                        <textarea class="form-control" placeholder="Lời nhắn" id="message" style="height: 150px"></textarea>
+                                        <textarea class="form-control" placeholder="Lời nhắn" id="message" style="height: 150px" name="message"></textarea>
                                         <label for="message">Lời nhắn</label>
                                     </div>
+                                    @error('message')
+                                    <div style="color: red">* {{$message}}</div>
+                                    @enderror
                                 </div>
                                 <div class="col-12">
                                     <button class="btn btn-primary w-100 py-3" type="submit">Gửi</button>

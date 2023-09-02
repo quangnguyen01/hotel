@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\BookingController;
 use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\NewsController;
 use App\Http\Controllers\RoomController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
@@ -34,6 +36,15 @@ Route::prefix('rooms')->group(function () {
     Route::get('manager', [RoomController::class, 'manager'])->name('managerRoom');
 });
 
+Route::prefix('news')->group(function () {
+    Route::get('create', [NewsController::class, 'create'])->name('createNews');
+    Route::post('create', [NewsController::class, 'store'])->name('storeNews');
+    Route::get('', [NewsController::class, 'list'])->name('listNews');
+    Route::get('edit/{id}', [NewsController::class, 'edit'])->name('editNews');
+    Route::put('edit/{id}', [NewsController::class, 'save'])->name('saveNews');
+    Route::get('delete/{id}', [NewsController::class, 'delete'])->name('deleteNews');
+});
+
 Route::prefix('bookings')->group(function () {
    Route::get('', [BookingController::class, 'list'])->name('listBooking');
    Route::post('', [BookingController::class, 'updateStatus'])->name('updateStatus');
@@ -42,3 +53,9 @@ Route::prefix('bookings')->group(function () {
    Route::put('update/{id}', [BookingController::class, 'save'])->name('saveBooking');
    Route::get('delete/{id}', [BookingController::class, 'delete'])->name('deleteBooking');
 });
+
+Route::prefix('contacts')->group(function () {
+   Route::get('', [ContactController::class, 'list'])->name('listContact');
+   Route::get('delete/{id}', [ContactController::class, 'delete'])->name('deleteContact');
+});
+

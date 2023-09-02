@@ -81,7 +81,7 @@
                             <li class="nav-item">
                                 <a class="d-flex align-items-center py-3" data-bs-toggle="pill" href="#tab-4">
                                     <i class="fa fa-star text-primary me-2"></i>
-                                    <h6 class="mb-0">Đánh giá (3)</h6>
+                                    <h6 class="mb-0" id="review-tab"></h6>
                                 </a>
                             </li>
                         </ul>
@@ -165,81 +165,29 @@
                             </div>
                             <div id="tab-4" class="tab-pane fade show p-0">
                                 <div class="mb-4">
-                                    <h4 class="mb-4">3 Đánh giá</h4>
-                                    <div class="d-flex mb-4">
-                                        <img src="/assets/images/team-1.jpg" class="img-fluid rounded" style="width: 45px; height: 45px;">
-                                        <div class="ps-3">
-                                            <h6>Dương <small class="text-body fw-normal fst-italic">18 Aug 2023</small></h6>
-                                            <div class="mb-2">
-                                                <small class="fa fa-star text-primary"></small>
-                                                <small class="fa fa-star text-primary"></small>
-                                                <small class="fa fa-star text-primary"></small>
-                                                <small class="fa fa-star text-primary"></small>
-                                                <small class="fa fa-star text-primary"></small>
-                                            </div>
-                                            <p class="mb-2">Sạch sẽ, giá rẻ, nhân viên phục vụ tận tình, khá gần trung tâm</p>
-                                            <a href=""><i class="fa fa-reply me-2"></i> Reply</a>
-                                        </div>
-                                    </div>
-                                    <div class="d-flex mb-4">
-                                        <img src="/assets/images/team-1.jpg" class="img-fluid rounded" style="width: 45px; height: 45px;">
-                                        <div class="ps-3">
-                                            <h6>Kiều <small class="text-body fw-normal fst-italic">08 Aug 2023</small></h6>
-                                            <div class="mb-2">
-                                                <small class="fa fa-star text-primary"></small>
-                                                <small class="fa fa-star text-primary"></small>
-                                                <small class="fa fa-star text-primary"></small>
-                                                <small class="fa fa-star text-primary"></small>
-                                                <small class="fa fa-star text-primary"></small>
-                                            </div>
-                                            <p class="mb-2">Không gian yên tĩnh, nhân viên lễ phép chu đáo,
-                                                 phòng sạch sẽ đầy đủ tiện nghi. Nước nóng luôn có và có free 2 chai nước trong phòng.
-                                                 Nhân viên có hỗ trợ thêm về check in cũng như check out.</p>
-                                            <a href=""><i class="fa fa-reply me-2"></i> Reply</a>
-                                        </div>
-                                    </div>
-                                    <div class="d-flex ms-5 mb-4">
-                                        <img src="/assets/images/team-1.jpg" class="img-fluid rounded" style="width: 45px; height: 45px;">
-                                        <div class="ps-3">
-                                            <h6>Thi <small class="text-body fw-normal fst-italic">17 Aug 2023</small></h6>
-                                            <div class="mb-2">
-                                                <small class="fa fa-star text-primary"></small>
-                                                <small class="fa fa-star text-primary"></small>
-                                                <small class="fa fa-star text-primary"></small>
-                                                <small class="fa fa-star text-primary"></small>
-                                                <small class="fa fa-star text-primary"></small>
-                                            </div>
-                                            <p class="mb-2">Phòng sang trọng đẹp. Giá lại ưu dai, căn hộ trong khu vinhome rất đẹp, yên tĩnh cao cấp. Mình rất thích</p>
-                                            <a href=""><i class="fa fa-reply me-2"></i> Reply</a>
-                                        </div>
+                                    <h4 class="mb-4" id="review-title"></h4>
+                                    <div id="list-comment">
                                     </div>
                                 </div>
                                 <div class="bg-light p-4 p-md-5">
-                                    <h4 class="mb-4">Leave A Review</h4>
-                                    <form>
                                         <div class="row g-3">
-                                            <div class="col-12 d-flex align-items-center">
-                                                <h6 class="mb-0 me-2">Rate Me:</h6>
-                                                <div id="halfstarsReview" class="fs-3 me-2" rating="true" style="color: rgb(254, 161, 22);"><i class="far fa-star" style="cursor: pointer;"></i><i class="far fa-star" style="cursor: pointer;"></i><i class="far fa-star" style="cursor: pointer;"></i><i class="far fa-star" style="cursor: pointer;"></i><i class="far fa-star" style="cursor: pointer;"></i></div>
-                                                <input type="text" value="" readonly="" id="halfstarsInput" class="border-0 bg-transparent" style="width: 30px;">
-                                            </div>
-                                            <div class="col-12 col-sm-6">
-                                                <input type="text" class="form-control bg-white border-0" placeholder="Your Name" style="height: 55px;">
-                                            </div>
-                                            <div class="col-12 col-sm-6">
-                                                <input type="email" class="form-control bg-white border-0" placeholder="Your Email" style="height: 55px;">
-                                            </div>
-                                            <div class="col-12">
-                                                <input type="text" class="form-control bg-white border-0" placeholder="Website" style="height: 55px;">
-                                            </div>
-                                            <div class="col-12">
-                                                <textarea class="form-control bg-white border-0" rows="5" placeholder="Comment"></textarea>
-                                            </div>
-                                            <div class="col-12">
-                                                <button class="btn btn-primary w-100 py-3" type="submit">Leave Your Review</button>
-                                            </div>
+                                            @if(\Illuminate\Support\Facades\Auth::user())
+                                                <div class="col-1">
+                                                    <img src="{{\Illuminate\Support\Facades\Auth::user()->avatar}}" class="rounded-circle" style="height: 40px; width: 40px;object-fit: cover" alt="">
+                                                </div>
+                                                <div class="col-11">
+                                                    <textarea id="message" class="form-control bg-white border-0" placeholder="Comment" name="message" required></textarea>
+                                                    <input id="userId" type="hidden" value="{{\Illuminate\Support\Facades\Auth::user()->id}}" name="user_id">
+                                                </div>
+                                                <div class="col-12">
+                                                    <button class="btn btn-primary w-100 py-3" id="comment">Để lại đánh giá của bạn</button>
+                                                </div>
+                                            @else
+                                                <div class="col-12">
+                                                    <a class="btn btn-primary w-100 py-3" href="{{route('login')}}">Đăng nhập để đánh giá</a>
+                                                </div>
+                                            @endif
                                         </div>
-                                    </form>
                                 </div>
                             </div>
                         </div>
@@ -335,7 +283,7 @@
                                     <textarea class="form-control" name="special_request" placeholder="Special Request"></textarea>
                                 </div>
                                 <input type="hidden" name="price" value="{{$room->price}}">
-                                <input type="hidden" name="room_id" value="{{$room->id}}">
+                                <input type="hidden" name="room_id" value="{{$room->id}}" id="roomId">
                                 <input type="hidden" name="route" value="success">
                                 <div class="col-12">
                                     <button type="submit" class="btn btn-primary py-3 w-100">Đặt ngay</button>
@@ -386,8 +334,8 @@
                                     </div>
                                     <p class="text-body mb-3">Căn hộ có máy lạnh và có lối vào riêng, 1 phòng khách, 2 phòng ngủ riêng biệt và 2 phòng tắm với bồn tắm cùng vòi sen </p>
                                     <div class="d-flex justify-content-between">
-                                        <a class="btn btn-sm btn-primary rounded py-2 px-4" href="{{@route('room-detail', $room->id)}}">Xem Phòng</a>
-                                        <a class="btn btn-sm btn-dark rounded py-2 px-4" href="{{@route('room-detail', $room->id)}}">Đặt phòng ngay</a>
+                                        <a class="btn btn-sm btn-primary rounded py-2 px-4" href="{{@route('room-detail', $room->id)}}">Đặt phòng</a>
+                                        <a class="btn btn-sm btn-dark rounded py-2 px-4" href="/room-detail/{{$room->id}}#tab-4">Xem đánh giá</a>
                                     </div>
                                 </div>
                             </div>
@@ -401,12 +349,64 @@
 @section('mix_js')
     <script>
         document.addEventListener("DOMContentLoaded", (event) => {
-            const id = window.location.href.split('#').pop();
-            if (id) {
-                document.getElementById(id).classList.add('active');
-                window.scrollTo(0, 3300);
+            $.ajaxSetup({
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                }
+            });
+
+            $('#comment').click(async function () {
+                const data = {
+                    user_id: $('#userId').val(),
+                    message: $('#message').val()
+                }
+                const id = $('#roomId').val()
+                await $.post(`/comments/room/${id}`, data, function (data, status) {
+                    $('#message').val('')
+                })
+                getComments();
+            })
+
+            getComments();
+            scrollToReviewTab();
+
+            function getComments() {
+                let comments = [];
+                const id = $('#roomId').val()
+                $.get(`/comments/room/${id}`, function (data, status) {
+                    $.each(data, function(idx, val) {
+                        comments += `<div class="d-flex mb-4">
+                                        <img src="${val.user.avatar}" class="img-fluid rounded-circle" style="width: 45px; height: 45px;">
+                                        <div class="ps-3">
+                                            <h6>${val.user.name} <small class="text-body fw-normal fst-italic">${formatDate(val.created_at)}</small></h6>
+                                            <p class="mb-2">${val.message}</p>
+                                        </div>
+                                    </div>`
+                    })
+                    $('#list-comment').html(comments);
+                    $('#review-tab').text(`Đánh giá (${data.length})`);
+                    $('#review-title').text(`${data.length} Đánh giá`);
+                })
+            }
+
+            function scrollToReviewTab() {
+                const id = window.location.href.split('#').pop();
+                if (id) {
+                    document.getElementById(id).classList.add('active');
+                    window.scrollTo(0, 3300);
+                }
+            }
+
+            function formatDate(data) {
+                const date = new Date(data);
+                const yyyy = date.getFullYear();
+                let mm = date.toLocaleString('default', {month: 'short'});
+                let dd = date.getDate();
+
+                if (dd < 10) dd = '0' + dd;
+
+                return dd + ' ' + mm + ' ' + yyyy;
             }
         });
-
     </script>
 @endsection

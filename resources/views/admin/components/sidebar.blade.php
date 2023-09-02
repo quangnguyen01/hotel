@@ -101,9 +101,36 @@
                 </ul>
             </li>
             <li class="sidebar_item" style="border: none!important;">
+                <a href="#" class="sidebar_item">
+                    <i class="metismenu-icon fas fa-newspaper"></i>
+                    <p>Tin tức</p>
+                    <i class="metismenu-state-icon fas fa-caret-down fa-caret-up"></i>
+                </a>
+                <ul class="mm-collapse">
+                    <li>
+                        <a href="{{route('listNews')}}">
+                            <i class="metismenu-icon">
+                            </i>Danh sách
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{route('createNews')}}">
+                            <i class="metismenu-icon"></i>
+                            Thêm mới
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="sidebar_item" style="border: none!important;">
                 <a href="{{route('listBooking')}}" class="sidebar_item">
                     <i class="metismenu-icon fas fa-chart-bar"></i>
                     <p style="margin-right: 20px">Danh sách đặt phòng</p>
+                </a>
+            </li>
+            <li class="sidebar_item" style="border: none!important;">
+                <a href="{{route('listContact')}}" class="sidebar_item">
+                    <i class="metismenu-icon fas fa-phone"></i>
+                    <p style="margin-right: 20px">Danh sách liên hệ</p>
                 </a>
             </li>
         </ul>
