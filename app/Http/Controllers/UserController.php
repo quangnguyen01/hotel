@@ -28,7 +28,7 @@ class UserController extends Controller
     {
         $queryBuilder = User::query();
         $search = $request->get('search');
-        $sort = $request->get('sort');
+        $sort = (int) $request->get('sort');
         $role = $request->get('role');
 
         if ($search || strlen($search) > 0) {

@@ -1,6 +1,6 @@
 @extends('admin.master')
 @section('title')
-    Tạo căn hộ
+    Tạo tin tức
 @endsection
 @section('custom_css')
     <style>
@@ -75,9 +75,9 @@
         <div class="container">
             <div class="card-body mb-2"><h2 class="mb-2">
                     @if($data)
-                        Cập nhật căn hộ
+                        Cập nhập tin tức
                     @else
-                        Thêm mới căn hộ
+                        Thêm mới tin tức
                     @endif
                 </h2>
                 @if(session('status'))
@@ -88,56 +88,60 @@
                 <form action="" method="POST">
                     @if($data)
                         @method('PUT')
-                    @endif
+                        @endif
                     @csrf
                     <div class="position-relative row form-group">
-                        <label class="col-sm-1 col-form-label">Tên</label>
-                        <div class="col-sm-3">
-                            <input name="name" value="{{$data ? $data->name : ''}}" type="text"
-                                   class="form-control form-control" placeholder="Vui lòng nhập tên">
-                            @error('name')
-                            <div class="mt-1 mb-1 ml-1 text-danger">{{ $message }}</div>
-                            @enderror
-                        </div>
-                        <label class="col-sm-1 col-form-label">Giá</label>
-                        <div class="col-sm-3">
-                            <input name="price" value="{{$data ? $data->price : ''}}" type="text" class="form-control"
-                                   placeholder="Vui lòng nhập giá">
-                            @error('price')
-                            <div class="mt-1 mb-1 ml-1 text-danger">{{ $message }}</div>
-                            @enderror
-                        </div>
-                        <label class="col-sm-1 px-1 col-form-label">Loại phòng</label>
-                        <div class="col-sm-3">
-                            <select class="form-control" name="category_id">
-                                <option selected disabled hidden>Loại phòng</option>
-                                @foreach($category as $item)
-                                    <option
-                                        {{$data && $data->category_id === $item->id ? 'selected' : ''}} value="{{$item->id}}">{{$item->name}}</option>
-                                @endforeach
-                            </select>
-                            @error('category_id')
+                        <label class="col-sm-1 col-form-label">Tiêu đề</label>
+                        <div class="col-sm-8">
+                            <input name="title" value="{{$data ? $data->title : ''}}" type="text"
+                                   class="form-control form-control" placeholder="Nhập tiêu đề">
+                            @error('title')
                             <div class="mt-1 mb-1 ml-1 text-danger">{{ $message }}</div>
                             @enderror
                         </div>
                     </div>
                     <div class="position-relative row form-group">
-                        <label class="col-sm-2 col-form-label">Mô tả chi tiết</label>
-                        <div class="col-sm-12">
-                            <textarea id="description" name="description" type="text" class="form-control"
-                                      placeholder="Enter description"
-                                      rows="3">{{$data ? $data->description : ''}}</textarea>
-                            @error('description')
+                        <label class="col-sm-1 col-form-label">Tác giả</label>
+                        <div class="col-sm-3">
+                            <input name="author" value="{{$data ? $data->author : ''}}" type="text"
+                                   class="form-control form-control" placeholder="Nhập tên tác giả">
+                            @error('author')
                             <div class="mt-1 mb-1 ml-1 text-danger">{{ $message }}</div>
                             @enderror
                         </div>
                     </div>
                     <div class="position-relative row form-group">
-                        <label class="col-sm-2 col-form-label">Nội dung</label>
+                        <label class="col-sm-1">Nổi bật</label>
+                        <div class="col-sm-4">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="is_featured" id="inlineRadio1" value="1" {{$data && $data->is_featured == 1 ? 'checked' : ''}}>
+                                <label class="form-check-label" for="inlineRadio1" >Yes</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="is_featured" id="inlineRadio2" value="0" {{$data && $data->is_featured == 0 ? 'checked' : ''}}>
+                                <label class="form-check-label" for="inlineRadio2">No</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="position-relative row form-group">
+                        <label class="col-sm-1 col-form-label">Slogan</label>
                         <div class="col-sm-12">
-                        <textarea id="description" name="room_content" type="text" class="form-control"
-                                  placeholder="Enter description"
-                                  rows="3">{{$data ? $data->content : ''}}</textarea>
+                            <textarea id="author_slogan" name="author_slogan"
+                                      class="form-control form-control" placeholder="Nhập khẩu hiệu của tác giả">{{$data ? $data->author_slogan : ''}}</textarea>
+                            @error('author_slogan')
+                            <div class="mt-1 mb-1 ml-1 text-danger">{{ $message }}</div>
+                            @enderror
+                        </div>
+                    </div>
+                    <div class="position-relative row form-group">
+                        <label class="col-sm-2 col-form-label">Nội dung bài viết</label>
+                        <div class="col-sm-12">
+                            <textarea id="content" name="content" type="text" class="form-control"
+                                      placeholder="Nhập nội dung"
+                                      rows="3">{{$data ? $data->content : ''}}</textarea>
+                            @error('content')
+                            <div class="mt-1 mb-1 ml-1 text-danger">{{ $message }}</div>
+                            @enderror
                         </div>
                     </div>
                     <div class="position-relative row form-group mb-0">
@@ -184,8 +188,8 @@
 @section('custom_js')
     <script src="{{url('https://cdn.ckeditor.com/4.16.1/standard/ckeditor.js')}}"></script>
     <script>
-        CKEDITOR.replace('description');
-        CKEDITOR.replace('room_content');
+        CKEDITOR.replace('content');
+        CKEDITOR.replace('author_slogan');
         const cloudName = 'dn3bmj5ex';
         const unsignedUploadPreset = 'm9kz74zz';
 

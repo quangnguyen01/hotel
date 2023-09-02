@@ -102,6 +102,7 @@
             </div>
         </div>
     </div>
+    @if($rooms->lastPage() > 1)
     <div class="col-12 wow slideInUp mb-3" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: slideInUp;">
         <?php
         // config
@@ -141,6 +142,7 @@
             </ul>
         </nav>
     </div>
+    @endif
     <!-- Room End -->
 @endsection
 

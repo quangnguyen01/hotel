@@ -38,7 +38,7 @@ class BookingController extends Controller
     public function list (Request $request) {
         $queryBuilder = Booking::query();
         $search = $request->get('search');
-        $sort = $request->get('sort');
+        $sort = (int) $request->get('sort');
         $status = $request->get('status');
         $start = $request->get('start_date');
         $end = $request->get('end_date');
